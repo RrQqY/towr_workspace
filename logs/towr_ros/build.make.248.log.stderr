@@ -1,0 +1,30 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:380:5:[m[K [01;35m[Kwarning: [m[Ksecond argument of ‘[01m[Kint main(int, char***)[m[K’ should be ‘[01m[Kchar **[m[K’ [[01;35m[K-Wmain[m[K]
+ int [01;35m[Kmain[m[K(int argc, char** argv[])
+     [01;35m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char***)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:382:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kinit(int&, char***&, const char [19])[m[K’
+     ros::init(argc, argv, "towr_user_iterface"[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30[m[K:
+[01m[K/opt/ros/melodic/include/ros/init.h:83:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::init(int&, char**, const string&, uint32_t)
+ ROSCPP_DECL void [01;36m[Kinit[m[K(int &argc, char **argv, const std::string& name, uint32_t options = 0);
+                  [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/init.h:83:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kchar***[m[K’ to ‘[01m[Kchar**[m[K’
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30[m[K:
+[01m[K/opt/ros/melodic/include/ros/init.h:93:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::init(const M_string&, const string&, uint32_t)
+ ROSCPP_DECL void [01;36m[Kinit[m[K(const M_string& remappings, const std::string& name, uint32_t options = 0);
+                  [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/init.h:93:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst M_string& {aka const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&}[m[K’
+[01m[K/opt/ros/melodic/include/ros/init.h:103:18:[m[K [01;36m[Knote: [m[Kcandidate: void ros::init(const VP_string&, const string&, uint32_t)
+ ROSCPP_DECL void [01;36m[Kinit[m[K(const VP_string& remapping_args, const std::string& name, uint32_t options = 0);
+                  [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/init.h:103:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst VP_string& {aka const std::vector<std::pair<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&}[m[K’
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

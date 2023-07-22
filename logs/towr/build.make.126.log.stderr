@@ -1,0 +1,168 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:171:37:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KSampleTerrainParameters[m[K’ declared void
+ extern void SampleTerrainParameters([01;31m[KTerrainID[m[K type)
+                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:171:37:[m[K [01;31m[Kerror: [m[K‘[01m[KTerrainID[m[K’ was not declared in this scope
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:31:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:171:37:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KSampleTerrainParameters[m[K’ declared void
+ extern void SampleTerrainParameters([01;31m[KTerrainID[m[K type)
+                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:171:37:[m[K [01;31m[Kerror: [m[K‘[01m[KTerrainID[m[K’ was not declared in this scope
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:201:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start_set[m[K’ was not declared in this scope
+     double stair_start       = [01;31m[Kstair_start_set[m[K;    // 0.5
+                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:201:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start_set[m[K’ was not declared in this scope
+     double stair_start       = [01;31m[Kstair_start_set[m[K;    // 0.5
+                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:201:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_start[m[K’
+     double stair_start       = [01;36m[Kstair_start_set[m[K;    // 0.5
+                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:202:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height_set[m[K’ was not declared in this scope
+     double stair_height      = [01;31m[Kstair_height_set[m[K;   // 0.08
+                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:201:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_start[m[K’
+     double stair_start       = [01;36m[Kstair_start_set[m[K;    // 0.5
+                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:202:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height_set[m[K’ was not declared in this scope
+     double stair_height      = [01;31m[Kstair_height_set[m[K;   // 0.08
+                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:202:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_height[m[K’
+     double stair_height      = [01;36m[Kstair_height_set[m[K;   // 0.08
+                                [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_height[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:203:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width_set[m[K’ was not declared in this scope
+     double stair_width       = [01;31m[Kstair_width_set[m[K;    // 1
+                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:202:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_height[m[K’
+     double stair_height      = [01;36m[Kstair_height_set[m[K;   // 0.08
+                                [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_height[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:203:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width_set[m[K’ was not declared in this scope
+     double stair_width       = [01;31m[Kstair_width_set[m[K;    // 1
+                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:203:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_width[m[K’
+     double stair_width       = [01;36m[Kstair_width_set[m[K;    // 1
+                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:220:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ was not declared in this scope
+     double fissure_start = [01;31m[Kfissure_start_set[m[K;    // 0.5
+                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:203:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_width[m[K’
+     double stair_width       = [01;36m[Kstair_width_set[m[K;    // 1
+                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                [32m[Kstair_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:220:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ was not declared in this scope
+     double fissure_start = [01;31m[Kfissure_start_set[m[K;    // 0.5
+                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:220:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfissure_start[m[K’
+     double fissure_start = [01;36m[Kfissure_start_set[m[K;    // 0.5
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+                            [32m[Kfissure_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:221:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width_set[m[K’ was not declared in this scope
+     double fissure_width = [01;31m[Kfissure_width_set[m[K;    // 0.15
+                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:220:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfissure_start[m[K’
+     double fissure_start = [01;36m[Kfissure_start_set[m[K;    // 0.5
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+                            [32m[Kfissure_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:221:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width_set[m[K’ was not declared in this scope
+     double fissure_width = [01;31m[Kfissure_width_set[m[K;    // 0.15
+                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:221:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfissure_width[m[K’
+     double fissure_width = [01;36m[Kfissure_width_set[m[K;    // 0.15
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+                            [32m[Kfissure_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:221:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfissure_width[m[K’
+     double fissure_width = [01;36m[Kfissure_width_set[m[K;    // 0.15
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+                            [32m[Kfissure_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:226:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+ [01;31m[Kdouble[m[K fissure_width_set = 0.15;
+ [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:229:30:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KSampleTerrainParameters[m[K’ declared void
+ void SampleTerrainParameters([01;31m[KTerrainID[m[K type) {
+                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:229:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTerrainID[m[K’ was not declared in this scope
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:264:1:[m[K [01;31m[Kerror: [m[K‘[01m[KStep[m[K’ has not been declared
+ [01;31m[KStep[m[K::GetHeight (double x, double y) const
+ [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:264:38:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kdouble towr::GetHeight(double, double)[m[K’ cannot have cv-qualifier
+ Step::GetHeight (double x, double y) [01;31m[Kconst[m[K
+                                      [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In function ‘[01m[Kdouble towr::GetHeight(double, double)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:268:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_num[m[K’ was not declared in this scope
+     for (int i=0; i<[01;31m[Kstep_num[m[K; i++) {
+                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSampleTerrainParameters[m[K’ was not declared in this scope
+     [01;31m[KSampleTerrainParameters[m[K(type);
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:268:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktempnam[m[K’
+     for (int i=0; i<[01;36m[Kstep_num[m[K; i++) {
+                     [01;36m[K^~~~~~~~[m[K
+                     [32m[Ktempnam[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:274:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start[m[K’ was not declared in this scope
+         if ([01;31m[Kstep_start[m[K+i*step_width+eps_ <= x && x <= step_start+(i+1)*step_width){
+             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:274:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstep_start_set[m[K’
+         if ([01;36m[Kstep_start[m[K+i*step_width+eps_ <= x && x <= step_start+(i+1)*step_width){
+             [01;36m[K^~~~~~~~~~[m[K
+             [32m[Kstep_start_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:274:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width[m[K’ was not declared in this scope
+         if (step_start+i*[01;31m[Kstep_width[m[K+eps_ <= x && x <= step_start+(i+1)*step_width){
+                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:274:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstep_width_set[m[K’
+         if (step_start+i*[01;36m[Kstep_width[m[K+eps_ <= x && x <= step_start+(i+1)*step_width){
+                          [01;36m[K^~~~~~~~~~[m[K
+                          [32m[Kstep_width_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:274:37:[m[K [01;31m[Kerror: [m[K‘[01m[Keps_[m[K’ was not declared in this scope
+         if (step_start+i*step_width+[01;31m[Keps_[m[K <= x && x <= step_start+(i+1)*step_width){
+                                     [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:275:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height[m[K’ was not declared in this scope
+             h = (i+1)*[01;31m[Kstep_height[m[K;
+                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:275:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstep_height_set[m[K’
+             h = (i+1)*[01;36m[Kstep_height[m[K;
+                       [01;36m[K^~~~~~~~~~~[m[K
+                       [32m[Kstep_height_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:280:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width[m[K’ was not declared in this scope
+     if (y < -[01;31m[Kstep_width[m[K || y > step_width){
+              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:280:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstep_width_set[m[K’
+     if (y < -[01;36m[Kstep_width[m[K || y > step_width){
+              [01;36m[K^~~~~~~~~~[m[K
+              [32m[Kstep_width_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K At global scope:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:287:1:[m[K [01;31m[Kerror: [m[K‘[01m[KStep[m[K’ has not been declared
+ [01;31m[KStep[m[K::GetHeightDerivWrtX (double x, double y) const
+ [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:287:47:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kdouble towr::GetHeightDerivWrtX(double, double)[m[K’ cannot have cv-qualifier
+ Step::GetHeightDerivWrtX (double x, double y) [01;31m[Kconst[m[K
+                                               [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:59:51:[m[K [01;31m[Kerror: [m[K‘[01m[KStep[m[K’ was not declared in this scope
+         case StepID:      return std::make_shared<[01;31m[KStep[m[K>(); break;
+                                                   [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:59:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KStepID[m[K’
+         case StepID:      return std::make_shared<[01;36m[KStep[m[K>(); break;
+                                                   [01;36m[K^~~~[m[K
+                                                   [32m[KStepID[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:59:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+         case StepID:      return std::make_shared<Step>([01;31m[K)[m[K; break;
+                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)
+     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr.h:703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:59:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         case StepID:      return std::make_shared<Step>([01;31m[K)[m[K; break;
+                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

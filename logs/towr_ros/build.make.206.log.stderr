@@ -1,0 +1,22 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:58:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;31m[KGoalPublusher[m[K {
+       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:58:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;31m[KGoalPublusher[m[K {
+       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:67:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;36m[KGoalPublusher[m[K {
+       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:67:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;36m[KGoalPublusher[m[K {
+       [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_ros_interface.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

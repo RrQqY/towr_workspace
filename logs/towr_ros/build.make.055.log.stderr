@@ -1,0 +1,14 @@
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr//lib/gccusr//x86_64bin-/linuxld-:gnu /warning7:/ libstdc/+usr+/.libso/:gcc /unsupportedx86_64 -GNU_PROPERTY_TYPElinux -(gnu5/)7 /typelibstdc:+ +0xc0010001.
+so/:usr /unsupportedbin /GNU_PROPERTY_TYPEld :( 5warning):  type/:usr /0xc0010001lib
+//gccusr//x86_64bin-/linuxld-:gnu /warning7:/ libstdc/+usr+/.libso/:gcc /unsupportedx86_64 -GNU_PROPERTY_TYPElinux -(gnu5/)7 /typelibstdc:+ +0xc0010002.
+so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002

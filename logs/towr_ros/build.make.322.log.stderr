@@ -1,0 +1,343 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleGoalParameters(towr::HeightMap::TerrainID, double&, double&, double&, double&, double&, double&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:429:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::normal_distribution<double> pos_x_dist(flat_x_mean, flat_x_stddev);
+             [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:434:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_x_dist[m[K’ was not declared in this scope
+             pos_x = [01;31m[Kpos_x_dist[m[K(gen);
+                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:434:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpos_y_dist[m[K’
+             pos_x = [01;36m[Kpos_x_dist[m[K(gen);
+                     [01;36m[K^~~~~~~~~~[m[K
+                     [32m[Kpos_y_dist[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:439:14:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+         case [01;31m[KStepID[m[K:
+              [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:428:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_stddev[m[K’
+             double [01;36m[Kflat_x_stddev[m[K = (pos_x_max - pos_x_min) / 6.0
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:427:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_mean[m[K’
+             double [01;36m[Kflat_x_mean[m[K = (pos_x_min + pos_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:441:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_num[m[K’
+             std::uniform_int_distribution<> terrain_dist(1, Terrain->[01;31m[Kstep_num[m[K);
+                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_start[m[K’
+             double step_x_min = Terrain->[01;31m[Kstep_start[m[K + Terrain->step_width * (selected_step - 1);
+                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_width[m[K’
+             double step_x_min = Terrain->step_start + Terrain->[01;31m[Kstep_width[m[K * (selected_step - 1);
+                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:446:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_start[m[K’
+             double step_x_max = Terrain->[01;31m[Kstep_start[m[K + Terrain->step_width * (selected_step);
+                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:446:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_width[m[K’
+             double step_x_max = Terrain->step_start + Terrain->[01;31m[Kstep_width[m[K * (selected_step);
+                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:447:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_length[m[K’
+             double step_y_min = -Terrain->[01;31m[Kstep_length[m[K/2.0;
+                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:448:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstep_length[m[K’
+             double step_y_max = Terrain->[01;31m[Kstep_length[m[K/2.0;
+                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:455:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> pos_y_dist[01;31m[K([m[K0.0, pos_y_max/6.0);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:457:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> ang_z_dist[01;31m[K([m[K0.0, ang_max/6.0);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:463:14:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+         case [01;31m[KStairID[m[K:
+              [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:453:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_stddev[m[K’
+             double [01;36m[Kstep_x_stddev[m[K = (step_x_max - step_x_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:452:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_mean[m[K’
+             double [01;36m[Kstep_x_mean[m[K = (step_x_min + step_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:448:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_max[m[K’
+             double [01;36m[Kstep_y_max[m[K = Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:447:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_min[m[K’
+             double [01;36m[Kstep_y_min[m[K = -Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:446:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_max[m[K’
+             double [01;36m[Kstep_x_max[m[K = Terrain->step_start + Terrain->step_width * (selected_step);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_min[m[K’
+             double [01;36m[Kstep_x_min[m[K = Terrain->step_start + Terrain->step_width * (selected_step - 1);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:442:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_step[m[K’
+             int [01;36m[Kselected_step[m[K = terrain_dist(gen);
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:441:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist[m[K(1, Terrain->step_num);
+                                             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:428:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_stddev[m[K’
+             double [01;36m[Kflat_x_stddev[m[K = (pos_x_max - pos_x_min) / 6.0
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:427:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_mean[m[K’
+             double [01;36m[Kflat_x_mean[m[K = (pos_x_min + pos_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:465:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_num[m[K’
+             std::uniform_int_distribution<> terrain_dist_x(1, Terrain->[01;31m[Kstair_num[m[K);
+                                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:466:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_num[m[K’
+             std::uniform_int_distribution<> terrain_dist_y(0, Terrain->[01;31m[Kstair_num[m[K);
+                                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:473:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_start[m[K’
+             double stair_x_min = Terrain->[01;31m[Kstair_start[m[K + Terrain->stair_width * (selected_stair_x - 1);
+                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:473:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+             double stair_x_min = Terrain->stair_start + Terrain->[01;31m[Kstair_width[m[K * (selected_stair_x - 1);
+                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:474:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_start[m[K’
+             double stair_x_max = Terrain->[01;31m[Kstair_start[m[K + Terrain->stair_width * (selected_stair_x);
+                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:474:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+             double stair_x_max = Terrain->stair_start + Terrain->[01;31m[Kstair_width[m[K * (selected_stair_x);
+                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:476:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+                 double stair_y_min = Terrain->[01;31m[Kstair_width[m[K * (selected_stair_y - 1);
+                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:477:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+                 double stair_y_max = Terrain->[01;31m[Kstair_width[m[K * (selected_stair_y);
+                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:479:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+                 double stair_y_min = -Terrain->[01;31m[Kstair_width[m[K * (selected_stair_y);
+                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:480:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kstair_width[m[K’
+                 double stair_y_max = -Terrain->[01;31m[Kstair_width[m[K * (selected_stair_y - 1);
+                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_min[m[K’ was not declared in this scope
+             double stair_y_mean = ([01;31m[Kstair_y_min[m[K + stair_y_max) / 2.0;
+                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_min[m[K’
+             double stair_y_mean = ([01;36m[Kstair_y_min[m[K + stair_y_max) / 2.0;
+                                    [01;36m[K^~~~~~~~~~~[m[K
+                                    [32m[Kstair_x_min[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_max[m[K’ was not declared in this scope
+             double stair_y_mean = (stair_y_min + [01;31m[Kstair_y_max[m[K) / 2.0;
+                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_max[m[K’
+             double stair_y_mean = (stair_y_min + [01;36m[Kstair_y_max[m[K) / 2.0;
+                                                  [01;36m[K^~~~~~~~~~~[m[K
+                                                  [32m[Kstair_x_max[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:490:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> pos_y_dist([01;31m[Kstair_y_mean[m[K, stair_y_stddev);
+                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:492:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> ang_z_dist[01;31m[K([m[K0.0, ang_max/6.0);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:498:14:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+         case [01;31m[KFissureID[m[K:
+              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:488:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_y_stddev[m[K’
+             double [01;36m[Kstair_y_stddev[m[K = (stair_y_max - stair_y_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_y_mean[m[K’
+             double [01;36m[Kstair_y_mean[m[K = (stair_y_min + stair_y_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:486:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_stddev[m[K’
+             double [01;36m[Kstair_x_stddev[m[K = (stair_x_max - stair_x_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:485:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_mean[m[K’
+             double [01;36m[Kstair_x_mean[m[K = (stair_x_min + stair_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:474:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_max[m[K’
+             double [01;36m[Kstair_x_max[m[K = Terrain->stair_start + Terrain->stair_width * (selected_stair_x);
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:473:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_min[m[K’
+             double [01;36m[Kstair_x_min[m[K = Terrain->stair_start + Terrain->stair_width * (selected_stair_x - 1);
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:470:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_y_orient[m[K’
+             int [01;36m[Kselected_stair_y_orient[m[K = terrain_dist_y_orient(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:469:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_y[m[K’
+             int [01;36m[Kselected_stair_y[m[K = terrain_dist_y(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:468:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_x[m[K’
+             int [01;36m[Kselected_stair_x[m[K = terrain_dist_x(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:467:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_y_orient[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_y_orient[m[K(0, 1);   // y轴左侧0或右侧1
+                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:466:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_y[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_y[m[K(0, Terrain->stair_num);
+                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:465:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_x[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_x[m[K(1, Terrain->stair_num);
+                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:453:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_stddev[m[K’
+             double [01;36m[Kstep_x_stddev[m[K = (step_x_max - step_x_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:452:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_mean[m[K’
+             double [01;36m[Kstep_x_mean[m[K = (step_x_min + step_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:448:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_max[m[K’
+             double [01;36m[Kstep_y_max[m[K = Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:447:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_min[m[K’
+             double [01;36m[Kstep_y_min[m[K = -Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:446:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_max[m[K’
+             double [01;36m[Kstep_x_max[m[K = Terrain->step_start + Terrain->step_width * (selected_step);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_min[m[K’
+             double [01;36m[Kstep_x_min[m[K = Terrain->step_start + Terrain->step_width * (selected_step - 1);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:442:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_step[m[K’
+             int [01;36m[Kselected_step[m[K = terrain_dist(gen);
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:441:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist[m[K(1, Terrain->step_num);
+                                             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:428:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_stddev[m[K’
+             double [01;36m[Kflat_x_stddev[m[K = (pos_x_max - pos_x_min) / 6.0
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:427:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_mean[m[K’
+             double [01;36m[Kflat_x_mean[m[K = (pos_x_min + pos_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:500:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kfissure_start[m[K’
+             double fissure_x_min = Terrain->[01;31m[Kfissure_start[m[K + Terrain->fissure_width + fissure_threshold;
+                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:500:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class towr::HeightMap {aka class towr::HeightMap}[m[K’ has no member named ‘[01m[Kfissure_width[m[K’
+             double fissure_x_min = Terrain->fissure_start + Terrain->[01;31m[Kfissure_width[m[K + fissure_threshold;
+                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:504:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+             [01;31m[Kstd[m[K::normal_distribution<double> pos_x_dist(fissure_x_mean, fissure_x_stddev);
+             [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:505:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> pos_y_dist[01;31m[K([m[K0.0, pos_y_max/6.0);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:506:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> ang_z_dist[01;31m[K([m[K0.0, ang_max/6.0);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’ previously declared here
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:512:9:[m[K [01;31m[Kerror: [m[Kjump to case label [[01;31m[K-fpermissive[m[K]
+         [01;31m[Kdefault[m[K:
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:503:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble fissure_x_stddev[m[K’
+             double [01;36m[Kfissure_x_stddev[m[K = (fissure_x_max - fissure_x_min) / 6.0
+                    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:502:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble fissure_x_mean[m[K’
+             double [01;36m[Kfissure_x_mean[m[K = (fissure_x_min + fissure_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:501:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble fissure_x_max[m[K’
+             double [01;36m[Kfissure_x_max[m[K = pos_x_max;
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:500:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble fissure_x_min[m[K’
+             double [01;36m[Kfissure_x_min[m[K = Terrain->fissure_start + Terrain->fissure_width + fissure_threshold;
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:499:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble fissure_threshold[m[K’
+             double [01;36m[Kfissure_threshold[m[K = 0.8;     // 开始采样目标点到边缘的距离
+                    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:488:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_y_stddev[m[K’
+             double [01;36m[Kstair_y_stddev[m[K = (stair_y_max - stair_y_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_y_mean[m[K’
+             double [01;36m[Kstair_y_mean[m[K = (stair_y_min + stair_y_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:486:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_stddev[m[K’
+             double [01;36m[Kstair_x_stddev[m[K = (stair_x_max - stair_x_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:485:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_mean[m[K’
+             double [01;36m[Kstair_x_mean[m[K = (stair_x_min + stair_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:474:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_max[m[K’
+             double [01;36m[Kstair_x_max[m[K = Terrain->stair_start + Terrain->stair_width * (selected_stair_x);
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:473:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble stair_x_min[m[K’
+             double [01;36m[Kstair_x_min[m[K = Terrain->stair_start + Terrain->stair_width * (selected_stair_x - 1);
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:470:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_y_orient[m[K’
+             int [01;36m[Kselected_stair_y_orient[m[K = terrain_dist_y_orient(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:469:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_y[m[K’
+             int [01;36m[Kselected_stair_y[m[K = terrain_dist_y(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:468:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_stair_x[m[K’
+             int [01;36m[Kselected_stair_x[m[K = terrain_dist_x(gen);
+                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:467:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_y_orient[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_y_orient[m[K(0, 1);   // y轴左侧0或右侧1
+                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:466:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_y[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_y[m[K(0, Terrain->stair_num);
+                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:465:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist_x[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist_x[m[K(1, Terrain->stair_num);
+                                             [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:453:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_stddev[m[K’
+             double [01;36m[Kstep_x_stddev[m[K = (step_x_max - step_x_min) / 6.0;
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:452:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_mean[m[K’
+             double [01;36m[Kstep_x_mean[m[K = (step_x_min + step_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:448:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_max[m[K’
+             double [01;36m[Kstep_y_max[m[K = Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:447:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_y_min[m[K’
+             double [01;36m[Kstep_y_min[m[K = -Terrain->step_length/2.0;
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:446:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_max[m[K’
+             double [01;36m[Kstep_x_max[m[K = Terrain->step_start + Terrain->step_width * (selected_step);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble step_x_min[m[K’
+             double [01;36m[Kstep_x_min[m[K = Terrain->step_start + Terrain->step_width * (selected_step - 1);
+                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:442:17:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kint selected_step[m[K’
+             int [01;36m[Kselected_step[m[K = terrain_dist(gen);
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:441:45:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::uniform_int_distribution<> terrain_dist[m[K’
+             std::uniform_int_distribution<> [01;36m[Kterrain_dist[m[K(1, Terrain->step_num);
+                                             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:433:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> ang_z_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kang_z_dist[m[K(0.0, ang_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:431:46:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::normal_distribution<double> pos_y_dist[m[K’
+             std::normal_distribution<double> [01;36m[Kpos_y_dist[m[K(0.0, pos_y_max/6.0);
+                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:428:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_stddev[m[K’
+             double [01;36m[Kflat_x_stddev[m[K = (pos_x_max - pos_x_min) / 6.0
+                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:427:20:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble flat_x_mean[m[K’
+             double [01;36m[Kflat_x_mean[m[K = (pos_x_min + pos_x_max) / 2.0;
+                    [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:94:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z, \
+                                                                                               
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:82:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW, \
+                                                                                   
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002

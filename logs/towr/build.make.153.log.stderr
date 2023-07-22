@@ -1,0 +1,52 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:33:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[KTerrainType[m[K’
+     extern int [01;31m[KTerrainType[m[K;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[KTerrainType[m[K’
+     extern int [01;31m[KTerrainType[m[K;
+                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:37:12:[m[K [01;31m[Kerror: [m[Kdeclaration does not declare anything [[01;31m[K-fpermissive[m[K]
+ HeightMap::[01;31m[KPtr[m[K;
+            [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[KTerrainType[m[K’ in ‘[01m[Kclass towr::HeightMap[m[K’ does not name a type
+ HeightMap::[01;31m[KTerrainType[m[K = 0;
+            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;36m[Knote: [m[K‘[01m[Ktowr::HeightMap::TerrainType[m[K’ declared here
+     extern int [01;36m[KTerrainType[m[K;
+                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:55:39:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMakeTerrain[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+ HeightMap::MakeTerrain (TerrainID type[01;31m[K)[m[K
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:55:1:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kint towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’ does not match any in class ‘[01m[Ktowr::HeightMap[m[K’
+ [01;31m[KHeightMap[m[K::MakeTerrain (TerrainID type)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:99:27:[m[K [01;31m[Kerror: [m[Kcandidate is: static towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)
+     static HeightMap::Ptr [01;31m[KMakeTerrain[m[K(TerrainID type);
+                           [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/constraints/terrain_constraint.h:36:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/terrain_constraint.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[KTerrainType[m[K’
+     extern int [01;31m[KTerrainType[m[K;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/constraints/force_constraint.h:36:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/force_constraint.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[KTerrainType[m[K’
+     extern int [01;31m[KTerrainType[m[K;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/nlp_formulation.h:39:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/nlp_formulation.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[KTerrainType[m[K’
+     extern int [01;31m[KTerrainType[m[K;
+                [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/terrain_constraint.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/force_constraint.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/nlp_formulation.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

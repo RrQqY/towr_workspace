@@ -1,0 +1,23 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:410:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_geom_[m[K’ was not declared in this scope
+         [01;31m[Kgoal_geom_[m[K.lin.p_.x() = pos_x;
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kterrain_[m[K’ was not declared in this scope
+         keyboard_user_interface.terrain_ = AdvanceCircularBuffer([01;31m[Kterrain_[m[K, HeightMap::TERRAIN_COUNT);
+                                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:66:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kderwin[m[K’
+         keyboard_user_interface.terrain_ = AdvanceCircularBuffer([01;36m[Kterrain_[m[K, HeightMap::TERRAIN_COUNT);
+                                                                  [01;36m[K^~~~~~~~[m[K
+                                                                  [32m[Kderwin[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:76:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ has not been declared
+         keyboard_user_interface.terrain_ = AdvanceCircularBuffer(terrain_, [01;31m[KHeightMap[m[K::TERRAIN_COUNT);
+                                                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:44:[m[K [01;31m[Kerror: [m[K‘[01m[KAdvanceCircularBuffer[m[K’ was not declared in this scope
+         keyboard_user_interface.terrain_ = [01;31m[KAdvanceCircularBuffer[m[K(terrain_, HeightMap::TERRAIN_COUNT);
+                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:423:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkeyboard_user_interface[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Kkeyboard_user_interface[m[K::PublishCommand()
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

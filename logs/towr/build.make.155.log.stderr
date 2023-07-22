@@ -1,0 +1,25 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:37:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ HeightMap::TerrainType [01;31m[K=[m[K 0;
+                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:62:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+         case FlatID:      HeightMap::TerrainType[01;31m[K=[m[K0; return std::make_shared<FlatGround>(); break;
+                                                 [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:63:38:[m[K [01;31m[Kerror: [m[K‘[01m[KerrainType[m[K’ is not a member of ‘[01m[Ktowr::HeightMap[m[K’
+         case StepID:      HeightMap::[01;31m[KerrainType[m[K=1; return std::make_shared<Step>(); break;
+                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:64:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+         case StairID:     HeightMap::TerrainType[01;31m[K=[m[K2; return std::make_shared<Stair>(); break;
+                                                 [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:65:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+         case FissureID:   HeightMap::TerrainType[01;31m[K=[m[K3; return std::make_shared<Fissure>(); break;
+                                                 [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:66:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+         case BridgeID:    HeightMap::TerrainType[01;31m[K=[m[K4; return std::make_shared<Bridge>(); break;
+                                                 [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:67:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+         case PileID:      HeightMap::TerrainType[01;31m[K=[m[K5; return std::make_shared<Pile>(); break;
+                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

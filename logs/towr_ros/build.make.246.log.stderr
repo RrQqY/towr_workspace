@@ -1,0 +1,10 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:387:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+     [01;31m[Kstd[m[K::random_device rd;
+     [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:388:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krd[m[K’ was not declared in this scope
+     std::mt19937 gen([01;31m[Krd[m[K());
+                      [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

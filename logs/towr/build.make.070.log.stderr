@@ -1,0 +1,7 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:451:49:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kdouble towr::Bridge::GetHeightDerivWrtY(double, double) const[m[K’ member function declared in class ‘[01m[Ktowr::Bridge[m[K’
+ Bridge::GetHeightDerivWrtY (double x, double y) [01;31m[Kconst[m[K
+                                                 [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

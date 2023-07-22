@@ -1,0 +1,19 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:58:[m[K [01;31m[Kerror: [m[Kstray â€˜[01m[K\343[m[Kâ€™ in program
+             step_width_set = std::normal_distribution<>(0[01;31m[Kã[m[K€‚1, 0.03)(gen);
+                                                          [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:59:[m[K [01;31m[Kerror: [m[Kstray â€˜[01m[K\200[m[Kâ€™ in program
+             step_width_set = std::normal_distribution<>(0ã[01;31m[K€[m[K‚1, 0.03)(gen);
+                                                           [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:60:[m[K [01;31m[Kerror: [m[Kstray â€˜[01m[K\202[m[Kâ€™ in program
+             step_width_set = std::normal_distribution<>(0ã€[01;31m[K‚[m[K1, 0.03)(gen);
+                                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In function â€˜[01m[Kvoid towr::SampleTerrainParameters(towr::HeightMap::TerrainID)[m[Kâ€™:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before â€˜[01m[K([m[Kâ€™ token
+             step_width_set = std::normal_distribution<>[01;31m[K([m[K0ã€‚1, 0.03)(gen);
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:61:[m[K [01;31m[Kerror: [m[Kexpected â€˜[01m[K)[m[Kâ€™ before numeric constant
+             step_width_set = std::normal_distribution<>(0ã€‚[01;31m[K1[m[K, 0.03)(gen);
+                                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

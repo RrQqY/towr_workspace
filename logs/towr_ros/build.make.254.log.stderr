@@ -1,0 +1,56 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In member function ‘[01m[Kvoid towr::TowrUserInterface::PublishCommand()[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:326:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_ang_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kz[m[K’
+     Eigen::Quaterniond q = xpp::GetQuaternionFromEulerZYX(msg.goal_ang.[01;31m[Kz[m[K, msg.goal_ang.y, msg.goal_ang.x);
+                                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:326:88:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_ang_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+     Eigen::Quaterniond q = xpp::GetQuaternionFromEulerZYX(msg.goal_ang.z, msg.goal_ang.[01;31m[Ky[m[K, msg.goal_ang.x);
+                                                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:326:104:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_ang_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+     Eigen::Quaterniond q = xpp::GetQuaternionFromEulerZYX(msg.goal_ang.z, msg.goal_ang.y, msg.goal_ang.[01;31m[Kx[m[K);
+                                                                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:327:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_lin_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+     towr::goal_publisher.SetGoal(msg.goal_lin.[01;31m[Kx[m[K, msg.goal_lin.y, msg.terrain_->GetHeight(msg.goal_lin.x, msg.goal_lin.y),
+                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:327:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_lin_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+     towr::goal_publisher.SetGoal(msg.goal_lin.x, msg.goal_lin.[01;31m[Ky[m[K, msg.terrain_->GetHeight(msg.goal_lin.x, msg.goal_lin.y),
+                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:327:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand {aka struct towr_ros::TowrCommand_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kterrain_[m[K’; did you mean ‘[01m[Kterrain[m[K’?
+     towr::goal_publisher.SetGoal(msg.goal_lin.x, msg.goal_lin.y, msg.[01;31m[Kterrain_[m[K->GetHeight(msg.goal_lin.x, msg.goal_lin.y),
+                                                                      [01;31m[K^~~~~~~~[m[K
+                                                                      [32m[Kterrain[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:327:103:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_lin_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kx[m[K’
+     towr::goal_publisher.SetGoal(msg.goal_lin.x, msg.goal_lin.y, msg.terrain_->GetHeight(msg.goal_lin.[01;31m[Kx[m[K, msg.goal_lin.y),
+                                                                                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:327:119:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand_<std::allocator<void> >::_goal_lin_type {aka struct xpp_msgs::StateLin3d_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ky[m[K’
+     towr::goal_publisher.SetGoal(msg.goal_lin.x, msg.goal_lin.y, msg.terrain_->GetHeight(msg.goal_lin.x, msg.goal_lin.[01;31m[Ky[m[K),
+                                                                                                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:383:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+ int [01;31m[Kmain[m[K(int argc, char* argv[])
+     [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:360:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+ int [01;36m[Kmain[m[K(int argc, char *argv[])
+     [01;36m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:39:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ does not name a type
+         auto terrain_id = static_cast<[01;31m[KHeightMap[m[K::TerrainID>(terrain);
+                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K::[m[K’ token
+         auto terrain_id = static_cast<HeightMap[01;31m[K::[m[KTerrainID>(terrain);
+                                                [01;31m[K^~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K::[m[K’ token
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:50:[m[K [01;31m[Kerror: [m[K‘[01m[K::TerrainID[m[K’ has not been declared
+         auto terrain_id = static_cast<HeightMap::[01;31m[KTerrainID[m[K>(terrain);
+                                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kterrain[m[K’
+         auto terrain_id = static_cast<HeightMap::[01;36m[KTerrainID[m[K>(terrain);
+                                                  [01;36m[K^~~~~~~~~[m[K
+                                                  [32m[Kterrain[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+         auto terrain_id = static_cast<HeightMap::TerrainID>(terrain)[01;31m[K;[m[K
+                                                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:423:24:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ has not been declared
+         auto Terrain = [01;31m[KHeightMap[m[K::MakeTerrain(terrain_id);
+                        [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

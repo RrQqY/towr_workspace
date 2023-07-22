@@ -1,0 +1,14 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/robot_model.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/models/robot_model.h:78:28:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K::[m[K’ token
+   RobotModel() = RobotModel[01;31m[K::[m[KAnymal;
+                            [01;31m[K^~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/nlp_formulation.h:38:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/nlp_formulation.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/models/robot_model.h:78:28:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K::[m[K’ token
+   RobotModel() = RobotModel[01;31m[K::[m[KAnymal;
+                            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/robot_model.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr.dir/src/nlp_formulation.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,23 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:61:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case FlatID:       SetTerrainType(0[01;31m[K)[m[K; return std::make_shared<FlatGround>(); break;
+                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:62:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case StepID:       SetTerrainType(1[01;31m[K)[m[K; return std::make_shared<Step>(); break;
+                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:63:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case StairID:      SetTerrainType(2[01;31m[K)[m[K; return std::make_shared<Stair>(); break;
+                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:64:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case FissureID:    SetTerrainType(3[01;31m[K)[m[K; return std::make_shared<Fissure>(); break;
+                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:65:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case BridgeID:     SetTerrainType(4[01;31m[K)[m[K; return std::make_shared<Bridge>(); break;
+                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:66:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid towr::HeightMap::SetTerrainType(int)[m[K’ without object
+         case PileID:       SetTerrainType(5[01;31m[K)[m[K; return std::make_shared<Pile>(); break;
+                                            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

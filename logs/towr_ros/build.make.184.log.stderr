@@ -1,0 +1,79 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSetGoal[m[K’ was not declared in this scope
+     [01;31m[KSetGoal[m[K(goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w,
+     [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K At global scope:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_x_set[m[K’ has not been declared
+              [01;31m[Kgoal_pos_x_set[m[K, goal_pos_y_set, goal_pos_z_set, goal_q_x_set, goal_q_y_set, goal_q_z_set, goal_q_w_set) {
+              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_y_set[m[K’ has not been declared
+              goal_pos_x_set, [01;31m[Kgoal_pos_y_set[m[K, goal_pos_z_set, goal_q_x_set, goal_q_y_set, goal_q_z_set, goal_q_w_set) {
+                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_z_set[m[K’ has not been declared
+              goal_pos_x_set, goal_pos_y_set, [01;31m[Kgoal_pos_z_set[m[K, goal_q_x_set, goal_q_y_set, goal_q_z_set, goal_q_w_set) {
+                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_x_set[m[K’ has not been declared
+              goal_pos_x_set, goal_pos_y_set, goal_pos_z_set, [01;31m[Kgoal_q_x_set[m[K, goal_q_y_set, goal_q_z_set, goal_q_w_set) {
+                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_y_set[m[K’ has not been declared
+              goal_pos_x_set, goal_pos_y_set, goal_pos_z_set, goal_q_x_set, [01;31m[Kgoal_q_y_set[m[K, goal_q_z_set, goal_q_w_set) {
+                                                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_z_set[m[K’ has not been declared
+              goal_pos_x_set, goal_pos_y_set, goal_pos_z_set, goal_q_x_set, goal_q_y_set, [01;31m[Kgoal_q_z_set[m[K, goal_q_w_set) {
+                                                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:88:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_w_set[m[K’ has not been declared
+              goal_pos_x_set, goal_pos_y_set, goal_pos_z_set, goal_q_x_set, goal_q_y_set, goal_q_z_set, [01;31m[Kgoal_q_w_set[m[K) {
+                                                                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid SetGoal(double&, double&, double&, double&, double&, double&, double&, int, int, int, int, int, int, int)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:89:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_x_set[m[K’ was not declared in this scope
+     goal_pos_x = [01;31m[Kgoal_pos_x_set[m[K;
+                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:89:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_pos_x[m[K’
+     goal_pos_x = [01;36m[Kgoal_pos_x_set[m[K;
+                  [01;36m[K^~~~~~~~~~~~~~[m[K
+                  [32m[Kgoal_pos_x[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:90:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_y_set[m[K’ was not declared in this scope
+     goal_pos_y = [01;31m[Kgoal_pos_y_set[m[K;
+                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:90:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_pos_y[m[K’
+     goal_pos_y = [01;36m[Kgoal_pos_y_set[m[K;
+                  [01;36m[K^~~~~~~~~~~~~~[m[K
+                  [32m[Kgoal_pos_y[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:91:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_z_set[m[K’ was not declared in this scope
+     goal_pos_z = [01;31m[Kgoal_pos_z_set[m[K;
+                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:91:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_pos_z[m[K’
+     goal_pos_z = [01;36m[Kgoal_pos_z_set[m[K;
+                  [01;36m[K^~~~~~~~~~~~~~[m[K
+                  [32m[Kgoal_pos_z[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:92:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_x_set[m[K’ was not declared in this scope
+     goal_q_x = [01;31m[Kgoal_q_x_set[m[K;
+                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:92:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_q_x[m[K’
+     goal_q_x = [01;36m[Kgoal_q_x_set[m[K;
+                [01;36m[K^~~~~~~~~~~~[m[K
+                [32m[Kgoal_q_x[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:93:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_y_set[m[K’ was not declared in this scope
+     goal_q_y = [01;31m[Kgoal_q_y_set[m[K;
+                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:93:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_q_y[m[K’
+     goal_q_y = [01;36m[Kgoal_q_y_set[m[K;
+                [01;36m[K^~~~~~~~~~~~[m[K
+                [32m[Kgoal_q_y[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:94:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_z_set[m[K’ was not declared in this scope
+     goal_q_z = [01;31m[Kgoal_q_z_set[m[K;
+                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:94:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_q_z[m[K’
+     goal_q_z = [01;36m[Kgoal_q_z_set[m[K;
+                [01;36m[K^~~~~~~~~~~~[m[K
+                [32m[Kgoal_q_z[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:95:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_w_set[m[K’ was not declared in this scope
+     goal_q_w = [01;31m[Kgoal_q_w_set[m[K;
+                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:95:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_q_w[m[K’
+     goal_q_w = [01;36m[Kgoal_q_w_set[m[K;
+                [01;36m[K^~~~~~~~~~~~[m[K
+                [32m[Kgoal_q_w[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

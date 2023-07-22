@@ -1,0 +1,25 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:409:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_publisher[m[K’ was not declared in this scope
+         [01;31m[Kgoal_publisher[m[K.SetGoal(goal_msg.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, q.x(), q.y(), q.z(), q.w());
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:409:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:42:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:87:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktowr::goal_publisher[m[K’
+ extern GoalPublusher [01;36m[Kgoal_publisher[m[K;
+                      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:409:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ was not declared in this scope
+         goal_publisher.SetGoal([01;31m[Kgoal_msg[m[K.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, q.x(), q.y(), q.z(), q.w());
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:409:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcmd_msg[m[K’
+         goal_publisher.SetGoal([01;36m[Kgoal_msg[m[K.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, q.x(), q.y(), q.z(), q.w());
+                                [01;36m[K^~~~~~~~[m[K
+                                [32m[Kcmd_msg[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:409:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+         goal_publisher.SetGoal(goal_msg.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, [01;31m[Kq[m[K.x(), q.y(), q.z(), q.w());
+                                                                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

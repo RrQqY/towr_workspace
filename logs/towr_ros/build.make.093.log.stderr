@@ -1,0 +1,207 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:174:21:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+     fprintf(f_traj, [01;35m[K"[m[KTime, LF_Contact, RF_Contact, LH_Contact, RH_Contact,
+                     [01;35m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:174:21:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+     fprintf(f_traj, [01;31m[K"Time, LF_Contact, RF_Contact, LH_Contact, RH_Contact,[m[K
+                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:77:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                      Base_WX, Base_WY, Base_WZ, Base_WXd, Base_WYd, Base_WZd[01;31m[K\[m[Kn");
+                                                                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:79:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+                      Base_WX, Base_WY, Base_WZ, Base_WXd, Base_WYd, Base_WZd\n[01;35m[K"[m[K);
+                                                                               [01;35m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:79:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+                      Base_WX, Base_WY, Base_WZ, Base_WXd, Base_WYd, Base_WZd\n[01;31m[K");[m[K
+                                                                               [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:22:[m[K [01;31m[Kerror: [m[K‘[01m[KLF_X[m[K’ was not declared in this scope
+                      [01;31m[KLF_X[m[K, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                      [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLF[m[K’
+                      [01;36m[KLF_X[m[K, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                      [01;36m[K^~~~[m[K
+                      [32m[KLF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[KLF_Y[m[K’ was not declared in this scope
+                      LF_X, [01;31m[KLF_Y[m[K, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                            [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:28:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLF[m[K’
+                      LF_X, [01;36m[KLF_Y[m[K, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                            [01;36m[K^~~~[m[K
+                            [32m[KLF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:34:[m[K [01;31m[Kerror: [m[K‘[01m[KLF_Z[m[K’ was not declared in this scope
+                      LF_X, LF_Y, [01;31m[KLF_Z[m[K, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                  [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLF[m[K’
+                      LF_X, LF_Y, [01;36m[KLF_Z[m[K, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                  [01;36m[K^~~~[m[K
+                                  [32m[KLF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:40:[m[K [01;31m[Kerror: [m[K‘[01m[KRF_X[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, [01;31m[KRF_X[m[K, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                        [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRF[m[K’
+                      LF_X, LF_Y, LF_Z, [01;36m[KRF_X[m[K, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                        [01;36m[K^~~~[m[K
+                                        [32m[KRF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:46:[m[K [01;31m[Kerror: [m[K‘[01m[KRF_Y[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, [01;31m[KRF_Y[m[K, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                              [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:46:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRF[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, [01;36m[KRF_Y[m[K, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                              [01;36m[K^~~~[m[K
+                                              [32m[KRF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:52:[m[K [01;31m[Kerror: [m[K‘[01m[KRF_Z[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, [01;31m[KRF_Z[m[K, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                                    [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:52:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRF[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, [01;36m[KRF_Z[m[K, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                                    [01;36m[K^~~~[m[K
+                                                    [32m[KRF[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:58:[m[K [01;31m[Kerror: [m[K‘[01m[KLH_X[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, [01;31m[KLH_X[m[K, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                                          [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:58:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, [01;36m[KLH_X[m[K, LH_Y, LH_Z, RH_X, RH_Y, RH_Z,
+                                                          [01;36m[K^~~~[m[K
+                                                          [32m[KLH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:64:[m[K [01;31m[Kerror: [m[K‘[01m[KLH_Y[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, [01;31m[KLH_Y[m[K, LH_Z, RH_X, RH_Y, RH_Z,
+                                                                [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:64:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, [01;36m[KLH_Y[m[K, LH_Z, RH_X, RH_Y, RH_Z,
+                                                                [01;36m[K^~~~[m[K
+                                                                [32m[KLH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:70:[m[K [01;31m[Kerror: [m[K‘[01m[KLH_Z[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, [01;31m[KLH_Z[m[K, RH_X, RH_Y, RH_Z,
+                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:70:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, [01;36m[KLH_Z[m[K, RH_X, RH_Y, RH_Z,
+                                                                      [01;36m[K^~~~[m[K
+                                                                      [32m[KLH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:76:[m[K [01;31m[Kerror: [m[K‘[01m[KRH_X[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, [01;31m[KRH_X[m[K, RH_Y, RH_Z,
+                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:76:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, [01;36m[KRH_X[m[K, RH_Y, RH_Z,
+                                                                            [01;36m[K^~~~[m[K
+                                                                            [32m[KRH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:82:[m[K [01;31m[Kerror: [m[K‘[01m[KRH_Y[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, [01;31m[KRH_Y[m[K, RH_Z,
+                                                                                  [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:82:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, [01;36m[KRH_Y[m[K, RH_Z,
+                                                                                  [01;36m[K^~~~[m[K
+                                                                                  [32m[KRH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:88:[m[K [01;31m[Kerror: [m[K‘[01m[KRH_Z[m[K’ was not declared in this scope
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, [01;31m[KRH_Z[m[K,
+                                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:88:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KRH[m[K’
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, [01;36m[KRH_Z[m[K,
+                                                                                        [01;36m[K^~~~[m[K
+                                                                                        [32m[KRH[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:22:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_X[m[K’ was not declared in this scope
+                      [01;31m[KBase_X[m[K, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW,
+                      [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:30:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_Y[m[K’ was not declared in this scope
+                      Base_X, [01;31m[KBase_Y[m[K, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW,
+                              [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:38:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_Z[m[K’ was not declared in this scope
+                      Base_X, Base_Y, [01;31m[KBase_Z[m[K, Base_QX, Base_QY, Base_QZ, Base_QW,
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:46:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_QX[m[K’ was not declared in this scope
+                      Base_X, Base_Y, Base_Z, [01;31m[KBase_QX[m[K, Base_QY, Base_QZ, Base_QW,
+                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:55:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_QY[m[K’ was not declared in this scope
+                      Base_X, Base_Y, Base_Z, Base_QX, [01;31m[KBase_QY[m[K, Base_QZ, Base_QW,
+                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:64:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_QZ[m[K’ was not declared in this scope
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, [01;31m[KBase_QZ[m[K, Base_QW,
+                                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:73:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_QW[m[K’ was not declared in this scope
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, [01;31m[KBase_QW[m[K,
+                                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:22:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WX[m[K’ was not declared in this scope
+                      [01;31m[KBase_WX[m[K, Base_WY, Base_WZ, Base_WXd, Base_WYd, Base_WZd\n");
+                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:31:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WY[m[K’ was not declared in this scope
+                      Base_WX, [01;31m[KBase_WY[m[K, Base_WZ, Base_WXd, Base_WYd, Base_WZd\n");
+                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:40:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WZ[m[K’ was not declared in this scope
+                      Base_WX, Base_WY, [01;31m[KBase_WZ[m[K, Base_WXd, Base_WYd, Base_WZd\n");
+                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:49:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WXd[m[K’ was not declared in this scope
+                      Base_WX, Base_WY, Base_WZ, [01;31m[KBase_WXd[m[K, Base_WYd, Base_WZd\n");
+                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:59:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WYd[m[K’ was not declared in this scope
+                      Base_WX, Base_WY, Base_WZ, Base_WXd, [01;31m[KBase_WYd[m[K, Base_WZd\n");
+                                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:177:69:[m[K [01;31m[Kerror: [m[K‘[01m[KBase_WZd[m[K’ was not declared in this scope
+                      Base_WX, Base_WY, Base_WZ, Base_WXd, Base_WYd, [01;31m[KBase_WZd[m[K\n");
+                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:212:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kx[m[K’
+         x = state.ee_motion_.at(0).[01;31m[Kx[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:213:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Ky[m[K’
+         y = state.ee_motion_.at(0).[01;31m[Ky[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:214:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kz[m[K’
+         z = state.ee_motion_.at(0).[01;31m[Kz[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:217:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kx[m[K’
+         x = state.ee_motion_.at(1).[01;31m[Kx[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:218:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Ky[m[K’
+         y = state.ee_motion_.at(1).[01;31m[Ky[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:219:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kz[m[K’
+         z = state.ee_motion_.at(1).[01;31m[Kz[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:222:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kx[m[K’
+         x = state.ee_motion_.at(2).[01;31m[Kx[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:223:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Ky[m[K’
+         y = state.ee_motion_.at(2).[01;31m[Ky[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:224:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kz[m[K’
+         z = state.ee_motion_.at(2).[01;31m[Kz[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:227:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kx[m[K’
+         x = state.ee_motion_.at(3).[01;31m[Kx[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:228:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Ky[m[K’
+         y = state.ee_motion_.at(3).[01;31m[Ky[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:229:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kz[m[K’
+         z = state.ee_motion_.at(3).[01;31m[Kz[m[K();
+                                    [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kx[m[K’
+         x = state.base_.lin.[01;31m[Kx[m[K();
+                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:233:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Ky[m[K’
+         y = state.base_.lin.[01;31m[Ky[m[K();
+                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:234:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kz[m[K’
+         z = state.base_.lin.[01;31m[Kz[m[K();
+                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:253:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope
+         [01;31m[Ktrajectory[m[K.push_back(state);
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:253:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGetTrajectory[m[K’
+         [01;36m[Ktrajectory[m[K.push_back(state);
+         [01;36m[K^~~~~~~~~~[m[K
+         [32m[KGetTrajectory[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:259:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory[m[K’ was not declared in this scope
+     return [01;31m[Ktrajectory[m[K;
+            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:259:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGetTrajectory[m[K’
+     return [01;36m[Ktrajectory[m[K;
+            [01;36m[K^~~~~~~~~~[m[K
+            [32m[KGetTrajectory[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K At global scope:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:342:60:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid towr::TowrRosInterface::SaveTrajectoryInCSV(const XppVec&) const[m[K’ member function declared in class ‘[01m[Ktowr::TowrRosInterface[m[K’
+ TowrRosInterface::SaveTrajectoryInCSV (const XppVec& traj) [01;31m[Kconst[m[K
+                                                            [01;31m[K^~~~~[m[K
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

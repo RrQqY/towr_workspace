@@ -1,0 +1,70 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In member function ‘[01m[Kvirtual double towr::Pile::GetHeightDerivWrtX(double, double) const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:493:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_start[m[K’ was not declared in this scope
+     if (([01;31m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:493:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_start[m[K’
+     if (([01;36m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;36m[K^~~~~~~~~~~~[m[K
+          [32m[Kpile_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:493:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_gap_width[m[K’ was not declared in this scope
+     if ((bridge_start <= x && x <= bridge_start + [01;31m[Kbridge_gap_width[m[K) &&
+                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:493:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_gap_width[m[K’
+     if ((bridge_start <= x && x <= bridge_start + [01;36m[Kbridge_gap_width[m[K) &&
+                                                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                                   [32m[Kpile_gap_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:494:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_width[m[K’ was not declared in this scope
+         ([01;31m[Kbridge_width[m[K/2 <= y || y <= -bridge_width/2))
+          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:494:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_width[m[K’
+         ([01;36m[Kbridge_width[m[K/2 <= y || y <= -bridge_width/2))
+          [01;36m[K^~~~~~~~~~~~[m[K
+          [32m[Kpile_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In member function ‘[01m[Kvirtual double towr::Pile::GetHeightDerivWrtXX(double, double) const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:505:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_start[m[K’ was not declared in this scope
+     if (([01;31m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:505:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_start[m[K’
+     if (([01;36m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;36m[K^~~~~~~~~~~~[m[K
+          [32m[Kpile_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:505:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_gap_width[m[K’ was not declared in this scope
+     if ((bridge_start <= x && x <= bridge_start + [01;31m[Kbridge_gap_width[m[K) &&
+                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:505:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_gap_width[m[K’
+     if ((bridge_start <= x && x <= bridge_start + [01;36m[Kbridge_gap_width[m[K) &&
+                                                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                                   [32m[Kpile_gap_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:506:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_width[m[K’ was not declared in this scope
+         ([01;31m[Kbridge_width[m[K/2 <= y || y <= -bridge_width/2))
+          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:506:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_width[m[K’
+         ([01;36m[Kbridge_width[m[K/2 <= y || y <= -bridge_width/2))
+          [01;36m[K^~~~~~~~~~~~[m[K
+          [32m[Kpile_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In member function ‘[01m[Kvirtual double towr::Pile::GetHeightDerivWrtY(double, double) const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:517:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_start[m[K’ was not declared in this scope
+     if (([01;31m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:517:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_start[m[K’
+     if (([01;36m[Kbridge_start[m[K <= x && x <= bridge_start + bridge_gap_width) &&
+          [01;36m[K^~~~~~~~~~~~[m[K
+          [32m[Kpile_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:517:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_gap_width[m[K’ was not declared in this scope
+     if ((bridge_start <= x && x <= bridge_start + [01;31m[Kbridge_gap_width[m[K) &&
+                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:517:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_gap_width[m[K’
+     if ((bridge_start <= x && x <= bridge_start + [01;36m[Kbridge_gap_width[m[K) &&
+                                                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                                   [32m[Kpile_gap_width[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:518:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge_width[m[K’ was not declared in this scope
+         (([01;31m[Kbridge_width[m[K/2 <= y && y <= bridge_width/2 + eps_) || (-bridge_width/2 - eps_ <= y && y <= -bridge_width/2)))
+           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:518:11:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpile_width[m[K’
+         (([01;36m[Kbridge_width[m[K/2 <= y && y <= bridge_width/2 + eps_) || (-bridge_width/2 - eps_ <= y && y <= -bridge_width/2)))
+           [01;36m[K^~~~~~~~~~~~[m[K
+           [32m[Kpile_width[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

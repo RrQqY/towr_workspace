@@ -1,0 +1,30 @@
+[  0%] Built target xpp_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target xpp_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target xpp_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target xpp_msgs_generate_messages_lisp
+[  0%] Built target xpp_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target rosbag_traj_combiner
+[ 19%] Built target rosbag_geom_msg_extractor
+[ 19%] Built target _towr_ros_generate_messages_check_deps_TowrCommand
+[ 23%] Built target towr_ros_generate_messages_cpp
+[ 33%] Built target towr_ros_generate_messages_eus
+[ 38%] Built target towr_ros_generate_messages_lisp
+[ 47%] Built target towr_ros_generate_messages_nodejs
+[ 52%] Built target towr_ros_generate_messages_py
+[ 52%] Built target towr_ros_gencpp
+[ 52%] Built target towr_ros_generate_messages
+[ 61%] Built target rviz_terrain_publisher
+[ 71%] Built target towr_ros
+[35m[1mConsolidate compiler generated dependencies of target towr_user_interface[0m
+[ 80%] Built target towr_ros_app
+[ 90%] Built target goal_pose_publisher
+[ 95%] [32mBuilding CXX object CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/rrqq/towr_workspace/devel/.private/towr_ros/lib/towr_ros/towr_user_interface[0m
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[100%] Built target towr_user_interface

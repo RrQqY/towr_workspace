@@ -1,0 +1,7 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In member function ‘[01m[Kvirtual double towr::Stair::GetHeight(double, double) const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:284:16:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K([m[K’ token
+                [01;31m[K([m[Kj*stair_width+eps_ <= y && y <= (j+1)*stair_width){
+                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

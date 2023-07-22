@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:445:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktowr::TowrUserInterface::PublishCommand()[m[K’
+         user_interface.PublishCommand([01;31m[K)[m[K;
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:310:6:[m[K [01;36m[Knote: [m[Kcandidate: void towr::TowrUserInterface::PublishCommand(int)
+ void [01;36m[KTowrUserInterface[m[K::PublishCommand(int time_step)
+      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:310:6:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

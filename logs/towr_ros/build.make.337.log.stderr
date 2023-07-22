@@ -1,0 +1,87 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kterrain[m[K’ has not been declared
+     void SetTerrainParamsToCSV([01;31m[Kterrain[m[K, step_start, step_height, step_width,
+                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start[m[K’ has not been declared
+     void SetTerrainParamsToCSV(terrain, [01;31m[Kstep_start[m[K, step_height, step_width,
+                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height[m[K’ has not been declared
+     void SetTerrainParamsToCSV(terrain, step_start, [01;31m[Kstep_height[m[K, step_width,
+                                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width[m[K’ has not been declared
+     void SetTerrainParamsToCSV(terrain, step_start, step_height, [01;31m[Kstep_width[m[K,
+                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:84:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start[m[K’ has not been declared
+                                         [01;31m[Kstair_start[m[K, stair_height, stair_width,
+                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:84:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height[m[K’ has not been declared
+                                         stair_start, [01;31m[Kstair_height[m[K, stair_width,
+                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:84:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width[m[K’ has not been declared
+                                         stair_start, stair_height, [01;31m[Kstair_width[m[K,
+                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:85:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ has not been declared
+                                         [01;31m[Kfissure_start_set[m[K, fissure_width) {
+                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:85:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width[m[K’ has not been declared
+                                         fissure_start_set, [01;31m[Kfissure_width[m[K) {
+                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:[m[K In member function ‘[01m[Kvoid towr::GoalPublusher::SetTerrainParamsToCSV(int, int, int, int, int, int, int, int, int)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kterrain[m[K’ was not declared in this scope
+                 [01;31m[Kterrain[m[K, step_start, step_height, step_width, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kf_terrain[m[K’
+                 [01;36m[Kterrain[m[K, step_start, step_height, step_width, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                 [01;36m[K^~~~~~~[m[K
+                 [32m[Kf_terrain[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start[m[K’ was not declared in this scope
+                 terrain, [01;31m[Kstep_start[m[K, step_height, step_width, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+                 terrain, [01;36m[Kstep_start[m[K, step_height, step_width, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                          [01;36m[K^~~~~~~~~~[m[K
+                          [32m[Kva_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height[m[K’ was not declared in this scope
+                 terrain, step_start, [01;31m[Kstep_height[m[K, step_width, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, [01;31m[Kstep_width[m[K, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:51:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwcswidth[m[K’
+                 terrain, step_start, step_height, [01;36m[Kstep_width[m[K, stair_start, stair_height, stair_width, fissure_start_set, fissure_width);
+                                                   [01;36m[K^~~~~~~~~~[m[K
+                                                   [32m[Kwcswidth[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, step_width, [01;31m[Kstair_start[m[K, stair_height, stair_width, fissure_start_set, fissure_width);
+                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:63:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+                 terrain, step_start, step_height, step_width, [01;36m[Kstair_start[m[K, stair_height, stair_width, fissure_start_set, fissure_width);
+                                                               [01;36m[K^~~~~~~~~~~[m[K
+                                                               [32m[Kva_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, step_width, stair_start, [01;31m[Kstair_height[m[K, stair_width, fissure_start_set, fissure_width);
+                                                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, step_width, stair_start, stair_height, [01;31m[Kstair_width[m[K, fissure_start_set, fissure_width);
+                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, step_width, stair_start, stair_height, stair_width, [01;31m[Kfissure_start_set[m[K, fissure_width);
+                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:88:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width[m[K’ was not declared in this scope
+                 terrain, step_start, step_height, step_width, stair_start, stair_height, stair_width, fissure_start_set, [01;31m[Kfissure_width[m[K);
+                                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleTerrainParameters(int&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:404:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kfissure_start_set[m[K’
+                                                [01;31m[Kfissure_start_set[m[K, fissure_width_set);
+                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:404:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktowr::GoalPublusher::SetTerrainParamsToCSV(int&, double&, double&, double&, double&, double&, double&, double&)[m[K’
+                                                fissure_start_set, fissure_width_set[01;31m[K)[m[K;
+                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:10:[m[K [01;36m[Knote: [m[Kcandidate: void towr::GoalPublusher::SetTerrainParamsToCSV(int, int, int, int, int, int, int, int, int)
+     void [01;36m[KSetTerrainParamsToCSV[m[K(terrain, step_start, step_height, step_width,
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:83:10:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 8 provided
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

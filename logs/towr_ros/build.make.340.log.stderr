@@ -1,0 +1,10 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:253:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+     [01;31m[Kstd[m[K::stringstream f_traj_path;
+     [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kf_traj_path[m[K’ was not declared in this scope
+     [01;31m[Kf_traj_path[m[K << "/home/rrqq/towr_workspace/traj_log/traj_" << time_step << ".csv";
+     [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,26 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In function ‘[01m[Kvoid towr::SampleTerrainParameters(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:235:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStepID[m[K’ was not declared in this scope
+         case [01;31m[KStepID[m[K:
+              [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:235:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KStep[m[K’
+         case [01;36m[KStepID[m[K:
+              [01;36m[K^~~~~~[m[K
+              [32m[KStep[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:242:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStairID[m[K’ was not declared in this scope
+         case [01;31m[KStairID[m[K:
+              [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:242:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KStair[m[K’
+         case [01;36m[KStairID[m[K:
+              [01;36m[K^~~~~~~[m[K
+              [32m[KStair[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:249:14:[m[K [01;31m[Kerror: [m[K‘[01m[KFissureID[m[K’ was not declared in this scope
+         case [01;31m[KFissureID[m[K:
+              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:249:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KFissure[m[K’
+         case [01;36m[KFissureID[m[K:
+              [01;36m[K^~~~~~~~~[m[K
+              [32m[KFissure[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

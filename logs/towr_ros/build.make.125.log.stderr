@@ -1,0 +1,21 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid towr::UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:78:39:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+     q_x = goal_msg.pose.orientation.x([01;31m[K)[m[K;
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:79:39:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+     q_y = goal_msg.pose.orientation.y([01;31m[K)[m[K;
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:80:39:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+     q_z = goal_msg.pose.orientation.z([01;31m[K)[m[K;
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:81:39:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+     q_w = goal_msg.pose.orientation.w([01;31m[K)[m[K;
+                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/goal_pose_publisher.dir/src/goal_pose_publisher.cc.o] Error 1
+make[1]: *** [CMakeFiles/goal_pose_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSetGoal[m[K’ was not declared in this scope
+     [01;31m[KSetGoal[m[K(goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w,
+     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

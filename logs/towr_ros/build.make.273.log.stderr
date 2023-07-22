@@ -1,0 +1,14 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:245:44:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KReadGoalFromCSV(int&, double [7])[m[K’ is ambiguous
+     ReadGoalFromCSV(time_step, goal_set_get[01;31m[K)[m[K;
+                                            [01;31m[K^[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:64:6:[m[K [01;36m[Knote: [m[Kcandidate: void towr::ReadGoalFromCSV(int, double*)
+ void [01;36m[KReadGoalFromCSV[m[K(int time_step, double goal_set[7]);
+      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:188:6:[m[K [01;36m[Knote: [m[Kcandidate: void towr::ReadGoalFromCSV(int&, double*)
+ void [01;36m[KReadGoalFromCSV[m[K(int &time_step, double goal_set[7]) {
+      [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

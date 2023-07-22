@@ -1,0 +1,6 @@
+devel_space: /home/rrqq/towr_workspace/devel
+install: false
+install_space: /home/rrqq/towr_workspace/install
+profile: default
+source_space: /home/rrqq/towr_workspace/src
+workspace: /home/rrqq/towr_workspace

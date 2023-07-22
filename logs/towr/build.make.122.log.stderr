@@ -1,0 +1,16 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:170:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstep_start[m[K’ initialized and declared ‘[01m[Kextern[m[K’
+ extern double [01;35m[Kstep_start[m[K = 3.0;
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:31:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:170:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstep_start[m[K’ initialized and declared ‘[01m[Kextern[m[K’
+ extern double [01;35m[Kstep_start[m[K = 3.0;
+               [01;35m[K^~~~~~~~~~[m[K
+CMakeFiles/towr.dir/src/height_map.cc.o:(.data+0x0): multiple definition of `towr::step_start'
+CMakeFiles/towr.dir/src/height_map_examples.cc.o:(.data+0x0): first defined here
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+collect2: error: ld returned 1 exit status
+make[2]: *** [libtowr.so] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

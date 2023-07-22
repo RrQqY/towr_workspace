@@ -1,0 +1,49 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In constructor ‘[01m[Ktowr::TowrUserInterface::TowrUserInterface()[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuser_command_pub_[m[K’ was not declared in this scope
+     [01;31m[Kuser_command_pub_[m[K = n.advertise<towr_ros::TowrCommand>(towr_msgs::user_command, 1);
+     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:397:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuser_command_pub_[m[K’ was not declared in this scope
+     [01;31m[Kuser_command_pub_[m[K  = n.advertise<towr_msgs::TowrCommand>
+     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:397:49:[m[K [01;31m[Kerror: [m[K‘[01m[KTowrCommand[m[K’ is not a member of ‘[01m[Ktowr_msgs[m[K’
+     user_command_pub_  = n.advertise<towr_msgs::[01;31m[KTowrCommand[m[K>
+                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:397:49:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuser_command[m[K’
+     user_command_pub_  = n.advertise<towr_msgs::[01;36m[KTowrCommand[m[K>
+                                                 [01;36m[K^~~~~~~~~~~[m[K
+                                                 [32m[Kuser_command[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:397:49:[m[K [01;31m[Kerror: [m[K‘[01m[KTowrCommand[m[K’ is not a member of ‘[01m[Ktowr_msgs[m[K’
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:397:49:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuser_command[m[K’
+     user_command_pub_  = n.advertise<towr_msgs::[01;36m[KTowrCommand[m[K>
+                                                 [01;36m[K^~~~~~~~~~~[m[K
+                                                 [32m[Kuser_command[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:398:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const string&, int)[m[K’
+                             (towr_msgs::user_command, 1[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:398:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+                             (towr_msgs::user_command, 1[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:398:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+                             (towr_msgs::user_command, 1[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:461:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kuser_command_pub_[m[K’
+         user_interface.PublishCommand(ros::Publisher [01;31m[Kuser_command_pub_[m[K, time_step);
+                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

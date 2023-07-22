@@ -1,0 +1,50 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:94:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z, \
+                                                                                               
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:82:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW, \
+                                                                                   
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:215:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         x = state.ee_motion_.at(0)(0[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         y = state.ee_motion_.at(0)(1[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:217:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         z = state.ee_motion_.at(0)(2[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:221:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         x = state.ee_motion_.at(1)(0[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:222:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         y = state.ee_motion_.at(1)(1[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:223:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         z = state.ee_motion_.at(1)(2[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:227:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         x = state.ee_motion_.at(2)(0[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:228:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         y = state.ee_motion_.at(2)(1[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:229:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         z = state.ee_motion_.at(2)(2[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:233:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         x = state.ee_motion_.at(3)(0[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:234:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         y = state.ee_motion_.at(3)(1[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:235:37:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(xpp::StateLin3d) (int)[m[K’
+         z = state.ee_motion_.at(3)(2[01;31m[K)[m[K;
+                                     [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K At global scope:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:363:60:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid towr::TowrRosInterface::SaveTrajectoryInCSV(const XppVec&) const[m[K’ member function declared in class ‘[01m[Ktowr::TowrRosInterface[m[K’
+ TowrRosInterface::SaveTrajectoryInCSV (const XppVec& traj) [01;31m[Kconst[m[K
+                                                            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

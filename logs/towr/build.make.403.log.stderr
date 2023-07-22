@@ -1,0 +1,7 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/nlp_formulation.cc:[m[K In member function ‘[01m[Ktowr::NlpFormulation::ContraintPtrVec towr::NlpFormulation::GetCosts() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/nlp_formulation.cc:340:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+             costs.push_back([01;31m[Kc[m[K);
+                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/nlp_formulation.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

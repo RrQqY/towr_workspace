@@ -1,0 +1,83 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:94:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z, \
+                                                                                               
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:82:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW, \
+                                                                                   
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:212:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         x = state.ee_motion_.at(0)[01;31m[K[[m[K0];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:213:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         y = state.ee_motion_.at(0)[01;31m[K[[m[K1];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:214:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         z = state.ee_motion_.at(0)[01;31m[K[[m[K2];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:217:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         x = state.ee_motion_.at(1)[01;31m[K[[m[K0];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:218:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         y = state.ee_motion_.at(1)[01;31m[K[[m[K1];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:219:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         z = state.ee_motion_.at(1)[01;31m[K[[m[K2];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:222:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         x = state.ee_motion_.at(2)[01;31m[K[[m[K0];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:223:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         y = state.ee_motion_.at(2)[01;31m[K[[m[K1];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:224:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         z = state.ee_motion_.at(2)[01;31m[K[[m[K2];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:227:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         x = state.ee_motion_.at(3)[01;31m[K[[m[K0];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:228:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         y = state.ee_motion_.at(3)[01;31m[K[[m[K1];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:229:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kxpp::StateLin3d[m[K’ and ‘[01m[Kint[m[K’)
+         z = state.ee_motion_.at(3)[01;31m[K[[m[K2];
+                                   [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kcoeffs[m[K’
+         x = state.base_.lin.[01;31m[Kcoeffs[m[K()[0];
+                             [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:233:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kcoeffs[m[K’
+         y = state.base_.lin.[01;31m[Kcoeffs[m[K()[1];
+                             [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:234:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass xpp::StateLin3d[m[K’ has no member named ‘[01m[Kcoeffs[m[K’
+         z = state.base_.lin.[01;31m[Kcoeffs[m[K()[2];
+                             [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:243:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wx = state.base_.ang.w.[01;31m[Kcoeffs[m[K()[0];
+                                [01;31m[K^~~~~~[m[K
+                                [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:244:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wy = state.base_.ang.w.[01;31m[Kcoeffs[m[K()[1];
+                                [01;31m[K^~~~~~[m[K
+                                [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:245:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wz = state.base_.ang.w.[01;31m[Kcoeffs[m[K()[2];
+                                [01;31m[K^~~~~~[m[K
+                                [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:248:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wxd = state.base_.ang.wd.[01;31m[Kcoeffs[m[K()[0];
+                                  [01;31m[K^~~~~~[m[K
+                                  [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:249:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wyd = state.base_.ang.wd.[01;31m[Kcoeffs[m[K()[1];
+                                  [01;31m[K^~~~~~[m[K
+                                  [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:250:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Vector3d = Eigen::Vector3d {aka class Eigen::Matrix<double, 3, 1>}[m[K’ has no member named ‘[01m[Kcoeffs[m[K’; did you mean ‘[01m[Kcoeff[m[K’?
+         wzd = state.base_.ang.wd.[01;31m[Kcoeffs[m[K()[2];
+                                  [01;31m[K^~~~~~[m[K
+                                  [32m[Kcoeff[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K At global scope:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:342:60:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid towr::TowrRosInterface::SaveTrajectoryInCSV(const XppVec&) const[m[K’ member function declared in class ‘[01m[Ktowr::TowrRosInterface[m[K’
+ TowrRosInterface::SaveTrajectoryInCSV (const XppVec& traj) [01;31m[Kconst[m[K
+                                                            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

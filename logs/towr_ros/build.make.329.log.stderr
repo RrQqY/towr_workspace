@@ -1,0 +1,53 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleGoalParameters(towr::HeightMap::TerrainID, double&, double&, double&, double&, double&, double&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:435:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kflat_pos_y_dist[m[K’ was not declared in this scope
+             pos_y = [01;31m[Kflat_pos_y_dist[m[K(gen);
+                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:435:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kflat_pos_x_dist[m[K’
+             pos_y = [01;36m[Kflat_pos_y_dist[m[K(gen);
+                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+                     [32m[Kflat_pos_x_dist[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:476:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_min[m[K’ was not declared in this scope
+                 [01;31m[Kstair_y_min[m[K = stair_width_set * (selected_stair_y - 1);
+                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:476:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_min[m[K’
+                 [01;36m[Kstair_y_min[m[K = stair_width_set * (selected_stair_y - 1);
+                 [01;36m[K^~~~~~~~~~~[m[K
+                 [32m[Kstair_x_min[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:477:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_max[m[K’ was not declared in this scope
+                 [01;31m[Kstair_y_max[m[K = stair_width_set * (selected_stair_y);
+                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:477:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_max[m[K’
+                 [01;36m[Kstair_y_max[m[K = stair_width_set * (selected_stair_y);
+                 [01;36m[K^~~~~~~~~~~[m[K
+                 [32m[Kstair_x_max[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:479:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_min[m[K’ was not declared in this scope
+                 [01;31m[Kstair_y_min[m[K = -stair_width_set * (selected_stair_y);
+                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:479:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_min[m[K’
+                 [01;36m[Kstair_y_min[m[K = -stair_width_set * (selected_stair_y);
+                 [01;36m[K^~~~~~~~~~~[m[K
+                 [32m[Kstair_x_min[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:480:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_max[m[K’ was not declared in this scope
+                 [01;31m[Kstair_y_max[m[K = -stair_width_set * (selected_stair_y - 1);
+                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:480:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_max[m[K’
+                 [01;36m[Kstair_y_max[m[K = -stair_width_set * (selected_stair_y - 1);
+                 [01;36m[K^~~~~~~~~~~[m[K
+                 [32m[Kstair_x_max[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_min[m[K’ was not declared in this scope
+             double stair_y_mean = ([01;31m[Kstair_y_min[m[K + stair_y_max) / 2.0;
+                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_min[m[K’
+             double stair_y_mean = ([01;36m[Kstair_y_min[m[K + stair_y_max) / 2.0;
+                                    [01;36m[K^~~~~~~~~~~[m[K
+                                    [32m[Kstair_x_min[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_y_max[m[K’ was not declared in this scope
+             double stair_y_mean = (stair_y_min + [01;31m[Kstair_y_max[m[K) / 2.0;
+                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:487:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstair_x_max[m[K’
+             double stair_y_mean = (stair_y_min + [01;36m[Kstair_y_max[m[K) / 2.0;
+                                                  [01;36m[K^~~~~~~~~~~[m[K
+                                                  [32m[Kstair_x_max[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

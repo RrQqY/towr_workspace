@@ -1,0 +1,58 @@
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:181:29:[m[K [01;31m[Kerror: [m[K‘[01m[KTerrainType[m[K’ was not declared in this scope
+     fprintf(f_traj, "%d, ", [01;31m[KTerrainType[m[K);
+                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:181:29:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kterrain_names[m[K’
+     fprintf(f_traj, "%d, ", [01;36m[KTerrainType[m[K);
+                             [01;36m[K^~~~~~~~~~~[m[K
+                             [32m[Kterrain_names[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;31m[Kstep_start[m[K, step_height, step_width);
+                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;36m[Kstep_start[m[K, step_height, step_width);
+                                        [01;36m[K^~~~~~~~~~[m[K
+                                        [32m[Kva_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", step_start, [01;31m[Kstep_height[m[K, step_width);
+                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", step_start, step_height, [01;31m[Kstep_width[m[K);
+                                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:65:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwcswidth[m[K’
+     fprintf(f_traj, "%lf, %lf, %lf, ", step_start, step_height, [01;36m[Kstep_width[m[K);
+                                                                 [01;36m[K^~~~~~~~~~[m[K
+                                                                 [32m[Kwcswidth[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;31m[Kstair_start[m[K, stair_height, stair_width);
+                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_start[m[K’
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;36m[Kstair_start[m[K, stair_height, stair_width);
+                                        [01;36m[K^~~~~~~~~~~[m[K
+                                        [32m[Kva_start[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", stair_start, [01;31m[Kstair_height[m[K, stair_width);
+                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", stair_start, stair_height, [01;31m[Kstair_width[m[K);
+                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:184:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf\n", [01;31m[Kfissure_start[m[K, fissure_width);
+                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:184:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf\n", fissure_start, [01;31m[Kfissure_width[m[K);
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In member function ‘[01m[Kvirtual double towr::Bridge::GetHeightDerivWrtY(double, double) const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:456:122:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         ((bridge_width/2 <= y && y <= bridge_width/2 + eps_) || (-bridge_width/2 - eps_ <= y && y <= -bridge_width/2) && [01;31m[K)[m[K)
+                                                                                                                          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,12 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:175:94:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      LF_X, LF_Y, LF_Z, RF_X, RF_Y, RF_Z, LH_X, LH_Y, LH_Z, RH_X, RH_Y, RH_Z, \
+                                                                                               
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:176:82:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+                      Base_X, Base_Y, Base_Z, Base_QX, Base_QY, Base_QZ, Base_QW, \
+                                                                                   
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:363:60:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid towr::TowrRosInterface::SaveTrajectoryInCSV(const XppVec&) const[m[K’ member function declared in class ‘[01m[Ktowr::TowrRosInterface[m[K’
+ TowrRosInterface::SaveTrajectoryInCSV (const XppVec& traj) [01;31m[Kconst[m[K
+                                                            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:189:1:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid towr::TowrRosInterface::ReadGoalFromCSV(double*)[m[K’ does not match any in class ‘[01m[Ktowr::TowrRosInterface[m[K’
+ [01;31m[KTowrRosInterface[m[K::ReadGoalFromCSV(double goal_set[7]) {
+ [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:127:10:[m[K [01;31m[Kerror: [m[Kcandidate is: void towr::TowrRosInterface::ReadGoalFromCSV(double*) const
+     void [01;31m[KReadGoalFromCSV[m[K(double goal_set[7]) const;
+          [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

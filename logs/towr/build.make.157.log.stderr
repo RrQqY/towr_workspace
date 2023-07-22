@@ -1,0 +1,46 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:61:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case FlatID:      HeightMap::[01;31m[KTerrainType[m[K=0; return std::make_shared<FlatGround>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:62:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case StepID:      HeightMap::[01;31m[KTerrainType[m[K=1; return std::make_shared<Step>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:63:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case StairID:     HeightMap::[01;31m[KTerrainType[m[K=2; return std::make_shared<Stair>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:64:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case FissureID:   HeightMap::[01;31m[KTerrainType[m[K=3; return std::make_shared<Fissure>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:65:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case BridgeID:    HeightMap::[01;31m[KTerrainType[m[K=4; return std::make_shared<Bridge>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:66:38:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’ in static member function
+         case PileID:      HeightMap::[01;31m[KTerrainType[m[K=5; return std::make_shared<Pile>(); break;
+                                      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:23:[m[K [01;36m[Knote: [m[Kdeclared here
+     int TerrainType = [01;36m[K0[m[K;
+                       [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

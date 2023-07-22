@@ -1,0 +1,8 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In member function ‘[01m[Kvoid towr::TowrUserInterface::PublishCommand()[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:329:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ktowr_ros::TowrCommand {aka struct towr_ros::TowrCommand_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kterrain_[m[K’; did you mean ‘[01m[Kterrain[m[K’?
+     towr::goal_publisher.SetGoal(msg.goal_lin.pos.x, msg.goal_lin.pos.y, msg.[01;31m[Kterrain_[m[K->GetHeight(msg.goal_lin.pos.x, msg.goal_lin.pos.y),
+                                                                              [01;31m[K^~~~~~~~[m[K
+                                                                              [32m[Kterrain[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

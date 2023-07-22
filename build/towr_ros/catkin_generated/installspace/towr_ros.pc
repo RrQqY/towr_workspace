@@ -1,0 +1,8 @@
+prefix=/home/rrqq/towr_workspace/install
+
+Name: towr_ros
+Description: Description of towr_ros
+Version: 1.4.1
+Cflags: -I${prefix}/include -I/home/rrqq/towr_workspace/devel/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ltowr_ros /home/rrqq/towr_workspace/devel/lib/libtowr.so /home/rrqq/towr_workspace/devel/lib/libifopt_core.so /home/rrqq/towr_workspace/devel/lib/libifopt_ipopt.so
+Requires: xpp_states roscpp

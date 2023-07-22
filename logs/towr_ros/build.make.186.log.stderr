@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kprintf[m[K’
+     [01;31m[Kprintf[m[K("###### %lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+     [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

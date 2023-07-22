@@ -1,0 +1,3 @@
+[ 44%] Built target ifopt_core
+[ 77%] Built target ifopt_ipopt
+[100%] Built target ifopt_ipopt-example

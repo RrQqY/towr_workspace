@@ -1,0 +1,131 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:56:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktowr::HeightMap::TerrainID[m[K’ to ‘[01m[Ktowr::TerrainID[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kvoid towr::SampleTerrainParameters(towr::TerrainID)[m[K’
+     SampleTerrainParameters(type[01;31m[K)[m[K;
+                                 [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:[m[K In function ‘[01m[Kvoid towr::SampleTerrainParameters(towr::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:231:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krandom_device[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::[01;31m[Krandom_device[m[K rd;
+          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:231:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krandom_shuffle[m[K’
+     std::[01;36m[Krandom_device[m[K rd;
+          [01;36m[K^~~~~~~~~~~~~[m[K
+          [32m[Krandom_shuffle[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:232:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt19937[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     std::[01;31m[Kmt19937[m[K gen(rd());
+          [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             step_start_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             step_start_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                   [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             step_start_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.3, 0.7)(gen);
+                                                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+             step_start_set = std::uniform_real_distribution<>(0.3, 0.7)([01;31m[Kgen[m[K);
+                                                                         [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgetw[m[K’
+             step_start_set = std::uniform_real_distribution<>(0.3, 0.7)([01;36m[Kgen[m[K);
+                                                                         [01;36m[K^~~[m[K
+                                                                         [32m[Kgetw[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:237:76:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             step_start_set = std::uniform_real_distribution<>(0.3, 0.7)(gen[01;31m[K)[m[K;
+                                                                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:238:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             step_height_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:238:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             step_height_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                    [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:238:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             step_height_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.05, 0.15)(gen);
+                                                              [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:238:79:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             step_height_set = std::uniform_real_distribution<>(0.05, 0.15)(gen[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             step_width_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             step_width_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                   [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             step_width_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.05, 0.15)(gen);
+                                                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:239:78:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             step_width_set = std::uniform_real_distribution<>(0.05, 0.15)(gen[01;31m[K)[m[K;
+                                                                              [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:244:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             stair_start_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:244:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             stair_start_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                    [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:244:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             stair_start_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.3, 0.7)(gen);
+                                                              [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:244:77:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             stair_start_set = std::uniform_real_distribution<>(0.3, 0.7)(gen[01;31m[K)[m[K;
+                                                                             [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:245:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             stair_height_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:245:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             stair_height_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                     [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:245:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             stair_height_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.05, 0.15)(gen);
+                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:245:80:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             stair_height_set = std::uniform_real_distribution<>(0.05, 0.15)(gen[01;31m[K)[m[K;
+                                                                                [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:246:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             stair_width_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:246:36:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             stair_width_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.05, 0.15)(gen);
+                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                    [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:246:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             stair_width_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.05, 0.15)(gen);
+                                                              [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:246:79:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             stair_width_set = std::uniform_real_distribution<>(0.05, 0.15)(gen[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:251:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             fissure_start_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:251:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             fissure_start_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.3, 0.7)(gen);
+                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:251:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             fissure_start_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.3, 0.7)(gen);
+                                                                [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:251:79:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             fissure_start_set = std::uniform_real_distribution<>(0.3, 0.7)(gen[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:252:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’
+             fissure_width_set = std::[01;31m[Kuniform_real_distribution[m[K<>(0.1, 0.4)(gen);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:252:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuniform_int_distribution[m[K’
+             fissure_width_set = std::[01;36m[Kuniform_real_distribution[m[K<>(0.1, 0.4)(gen);
+                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kuniform_int_distribution[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:252:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+             fissure_width_set = std::uniform_real_distribution<[01;31m[K>[m[K(0.1, 0.4)(gen);
+                                                                [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:252:79:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+             fissure_width_set = std::uniform_real_distribution<>(0.1, 0.4)(gen[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

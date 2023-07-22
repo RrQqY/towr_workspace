@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In function ‘[01m[Kvoid towr::ReadTerrainParamsFromCSV(int&, double*)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:57:28:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream f_terrain[m[K’ has initializer but incomplete type
+     std::ifstream f_terrain[01;31m[K([m[K"/home/rrqq/towr_workspace/terrain_set.csv");
+                            [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:[m[K In static member function ‘[01m[Kstatic towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:105:149:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+            step_start_set, step_height_set, step_width_set, stair_start_set, stair_height_set, stair_width_set, fissure_start_set, fissure_width_set[01;35m[K)[m[K;
+                                                                                                                                                     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

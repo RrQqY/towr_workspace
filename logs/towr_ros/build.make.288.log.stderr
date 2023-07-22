@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:424:12:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope
+     while ([01;31m[KTrue[m[K) {
+            [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:424:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfree[m[K’
+     while ([01;36m[KTrue[m[K) {
+            [01;36m[K^~~~[m[K
+            [32m[Kfree[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

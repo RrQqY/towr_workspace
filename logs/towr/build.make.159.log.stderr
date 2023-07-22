@@ -1,0 +1,32 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’
+     static int [01;31m[KTerrainType[m[K = 0;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/examples/height_map_examples.h:33:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map_examples.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’
+     static int [01;31m[KTerrainType[m[K = 0;
+                [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map_examples.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/constraints/terrain_constraint.h:36:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/terrain_constraint.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’
+     static int [01;31m[KTerrainType[m[K = 0;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/constraints/force_constraint.h:36:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/force_constraint.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’
+     static int [01;31m[KTerrainType[m[K = 0;
+                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/nlp_formulation.h:39:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/nlp_formulation.cc:30[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:97:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[Ktowr::HeightMap::TerrainType[m[K’
+     static int [01;31m[KTerrainType[m[K = 0;
+                [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/terrain_constraint.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/force_constraint.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr.dir/src/nlp_formulation.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

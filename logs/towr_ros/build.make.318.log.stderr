@@ -1,0 +1,22 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleGoalParameters(double&, double&, double&, double&, double&, double&, int&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:417:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_x[m[K’ shadows a parameter
+     double [01;31m[Kpos_x[m[K = pos_x_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_y[m[K’ shadows a parameter
+     double [01;31m[Kpos_y[m[K = pos_y_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:419:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_z[m[K’ shadows a parameter
+     double [01;31m[Kpos_z[m[K = pos_z_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:420:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_x[m[K’ shadows a parameter
+     double [01;31m[Kang_x[m[K = ang_x_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:421:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_y[m[K’ shadows a parameter
+     double [01;31m[Kang_y[m[K = ang_y_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:422:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_z[m[K’ shadows a parameter
+     double [01;31m[Kang_z[m[K = ang_z_dist(gen);
+            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

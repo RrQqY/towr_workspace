@@ -1,0 +1,20 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:37:12:[m[K [01;31m[Kerror: [m[Kdeclaration does not declare anything [[01;31m[K-fpermissive[m[K]
+ HeightMap::[01;31m[KPtr[m[K;
+            [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:38:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ HeightMap::TerrainType [01;31m[K=[m[K 0;
+                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:55:39:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMakeTerrain[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+ HeightMap::MakeTerrain (TerrainID type[01;31m[K)[m[K
+                                       [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:55:1:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kint towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)[m[K’ does not match any in class ‘[01m[Ktowr::HeightMap[m[K’
+ [01;31m[KHeightMap[m[K::MakeTerrain (TerrainID type)
+ [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr/src/height_map.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr/include/towr/terrain/height_map.h:99:27:[m[K [01;31m[Kerror: [m[Kcandidate is: static towr::HeightMap::Ptr towr::HeightMap::MakeTerrain(towr::HeightMap::TerrainID)
+     static HeightMap::Ptr [01;31m[KMakeTerrain[m[K(TerrainID type);
+                           [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr.dir/src/height_map.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,13 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:127:[m[K [01;31m[Kerror: [m[K‘[01m[Kint towr::TowrUserInterface::AdvanceCircularBuffer(int&, int) const[m[K’ is private within this context
+         user_interface.terrain_ = user_interface.AdvanceCircularBuffer(user_interface.terrain_, towr::HeightMap::TERRAIN_COUNT[01;31m[K)[m[K;
+                                                                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:337:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+ int [01;36m[KTowrUserInterface[m[K::AdvanceCircularBuffer(int& curr, int max) const
+     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:423:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kuser_interface[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Kuser_interface[m[K::PublishCommand()
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

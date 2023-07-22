@@ -1,0 +1,6 @@
+<launch>
+  
+  <!--  Launches all visualizers that use HyQ legs  --> 
+  <include file="$(find xpp_jueying)/launch/jueying.launch"></include>
+  
+</launch>

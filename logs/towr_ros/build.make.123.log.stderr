@@ -1,0 +1,42 @@
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;31m[Kstep_start_set[m[K, step_height_set, step_width_set);
+                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetstate[m[K’
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;36m[Kstep_start_set[m[K, step_height_set, step_width_set);
+                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+                                        [32m[Ksetstate[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", step_start_set, [01;31m[Kstep_height_set[m[K, step_width_set);
+                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:182:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", step_start_set, step_height_set, [01;31m[Kstep_width_set[m[K);
+                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", [01;31m[Kstair_start_set[m[K, stair_height_set, stair_width_set);
+                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", stair_start_set, [01;31m[Kstair_height_set[m[K, stair_width_set);
+                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:183:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, ", stair_start_set, stair_height_set, [01;31m[Kstair_width_set[m[K);
+                                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:184:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf\n", [01;31m[Kfissure_start_set[m[K, fissure_width_set);
+                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:184:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width_set[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf\n", fissure_start_set, [01;31m[Kfissure_width_set[m[K);
+                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

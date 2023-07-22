@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/rviz_terrain_publisher.cc:[m[K In function ‘[01m[Kvoid towr::UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/rviz_terrain_publisher.cc:99:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ is not a member of ‘[01m[Kros[m[K’
+ ros::[01;31m[Kinfo[m[K("here!!!!!!!!!!!!!!!!!!!!");
+      [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/rviz_terrain_publisher.cc:99:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kinit[m[K’
+ ros::[01;36m[Kinfo[m[K("here!!!!!!!!!!!!!!!!!!!!");
+      [01;36m[K^~~~[m[K
+      [32m[Kinit[m[K
+make[2]: *** [CMakeFiles/rviz_terrain_publisher.dir/src/rviz_terrain_publisher.cc.o] Error 1
+make[1]: *** [CMakeFiles/rviz_terrain_publisher.dir/all] Error 2
+make: *** [all] Error 2

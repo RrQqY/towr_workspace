@@ -1,0 +1,11 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:231:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kfilename[m[K’ was not declared in this scope
+     FILE* f_traj = fopen([01;31m[Kfilename[m[K.str().c_str(), "w");
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:231:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+     FILE* f_traj = fopen([01;36m[Kfilename[m[K.str().c_str(), "w");
+                          [01;36m[K^~~~~~~~[m[K
+                          [32m[Kbasename[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

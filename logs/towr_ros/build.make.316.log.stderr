@@ -1,0 +1,83 @@
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleTerrainParameters(towr::HeightMap::TerrainID)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:373:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStepID[m[K’ was not declared in this scope
+         case [01;31m[KStepID[m[K:
+              [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:375:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_start_set[m[K’ was not declared in this scope
+             [01;31m[Kstep_start_set[m[K = std::normal_distribution<>(0.5, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:375:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kslk_attr_set[m[K’
+             [01;36m[Kstep_start_set[m[K = std::normal_distribution<>(0.5, 0.03)(gen);
+             [01;36m[K^~~~~~~~~~~~~~[m[K
+             [32m[Kslk_attr_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:376:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_height_set[m[K’ was not declared in this scope
+             [01;31m[Kstep_height_set[m[K = std::normal_distribution<>(0.07, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:377:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_width_set[m[K’ was not declared in this scope
+             [01;31m[Kstep_width_set[m[K = std::normal_distribution<>(0.7, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:377:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kslk_attr_set[m[K’
+             [01;36m[Kstep_width_set[m[K = std::normal_distribution<>(0.7, 0.03)(gen);
+             [01;36m[K^~~~~~~~~~~~~~[m[K
+             [32m[Kslk_attr_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:380:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStairID[m[K’ was not declared in this scope
+         case [01;31m[KStairID[m[K:
+              [01;31m[K^~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:382:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_start_set[m[K’ was not declared in this scope
+             [01;31m[Kstair_start_set[m[K = std::normal_distribution<>(0.5, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:382:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kslk_attr_set[m[K’
+             [01;36m[Kstair_start_set[m[K = std::normal_distribution<>(0.5, 0.03)(gen);
+             [01;36m[K^~~~~~~~~~~~~~~[m[K
+             [32m[Kslk_attr_set[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:383:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_height_set[m[K’ was not declared in this scope
+             [01;31m[Kstair_height_set[m[K = std::normal_distribution<>(0.08, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:384:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstair_width_set[m[K’ was not declared in this scope
+             [01;31m[Kstair_width_set[m[K = std::normal_distribution<>(1.0, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:387:14:[m[K [01;31m[Kerror: [m[K‘[01m[KFissureID[m[K’ was not declared in this scope
+         case [01;31m[KFissureID[m[K:
+              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:389:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_start_set[m[K’ was not declared in this scope
+             [01;31m[Kfissure_start_set[m[K = std::normal_distribution<>(0.5, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:390:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfissure_width_set[m[K’ was not declared in this scope
+             [01;31m[Kfissure_width_set[m[K = std::normal_distribution<>(0.15, 0.03)(gen);
+             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kvoid towr::SampleGoalParameters(double&, double&, double&, double&, double&, double&, int&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:412:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_x[m[K’ shadows a parameter
+     double [01;31m[Kpos_x[m[K = pos_x_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:412:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+     double pos_x = pos_x_dist([01;31m[Kgen[m[K);
+                               [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:413:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_y[m[K’ shadows a parameter
+     double [01;31m[Kpos_y[m[K = pos_y_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:414:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble pos_z[m[K’ shadows a parameter
+     double [01;31m[Kpos_z[m[K = pos_z_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:415:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_x[m[K’ shadows a parameter
+     double [01;31m[Kang_x[m[K = ang_x_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:416:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_y[m[K’ shadows a parameter
+     double [01;31m[Kang_y[m[K = ang_y_dist(gen);
+            [01;31m[K^~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:417:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kdouble ang_z[m[K’ shadows a parameter
+     double [01;31m[Kang_z[m[K = ang_z_dist(gen);
+            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

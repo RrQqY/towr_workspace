@@ -1,0 +1,50 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_x[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", [01;31m[Kgoal_pos_x[m[K, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_x[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", [01;31m[Kgoal_pos_x[m[K, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_y[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, [01;31m[Kgoal_pos_y[m[K, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_y[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, [01;31m[Kgoal_pos_y[m[K, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_z[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, [01;31m[Kgoal_pos_z[m[K, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_z[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, [01;31m[Kgoal_pos_z[m[K, goal_q_x, goal_q_y, goal_q_z, goal_q_w);
+                                                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_x[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, [01;31m[Kgoal_q_x[m[K, goal_q_y, goal_q_z, goal_q_w);
+                                                                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_x[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, [01;31m[Kgoal_q_x[m[K, goal_q_y, goal_q_z, goal_q_w);
+                                                                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_y[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, [01;31m[Kgoal_q_y[m[K, goal_q_z, goal_q_w);
+                                                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_y[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, [01;31m[Kgoal_q_y[m[K, goal_q_z, goal_q_w);
+                                                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_z[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, [01;31m[Kgoal_q_z[m[K, goal_q_w);
+                                                                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_z[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, [01;31m[Kgoal_q_z[m[K, goal_q_w);
+                                                                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_w[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, [01;31m[Kgoal_q_w[m[K);
+                                                                                                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:216:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_q_w[m[K’ was not declared in this scope
+     fprintf(f_traj, "%lf, %lf, %lf, %lf, %lf, %lf, %lf\n", goal_pos_x, goal_pos_y, goal_pos_z, goal_q_x, goal_q_y, goal_q_z, [01;31m[Kgoal_q_w[m[K);
+                                                                                                                              [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_ros_interface.cc.o] Error 1
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

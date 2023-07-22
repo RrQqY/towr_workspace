@@ -1,0 +1,7 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:[m[K In member function ‘[01m[Kvoid towr::GoalPublusher::SetTerrainParamsToCSV(int, double, double, double, double, double, double, double, double, double, double, double)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_user_interface.h:92:61:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+                          down_start, down_height, down_width[01;35m[K)[m[K;
+                                                             [01;35m[K^[m[K
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002

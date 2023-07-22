@@ -1,0 +1,13 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:414:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_publisher[m[K’ was not declared in this scope
+         [01;31m[Kgoal_publisher[m[K.SetGoal(pos_x, pos_y, pos_z, q.x(), q.y(), q.z(), q.w());
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:414:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:42:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:87:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktowr::goal_publisher[m[K’
+ extern GoalPublusher [01;36m[Kgoal_publisher[m[K;
+                      [01;36m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2

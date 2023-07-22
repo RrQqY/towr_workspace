@@ -1,0 +1,27 @@
+[ 44%] Built target ifopt_core
+[ 77%] Built target ifopt_ipopt
+[100%] Built target ifopt_ipopt-example
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt-config.cmake
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt-config-version.cmake
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/package.xml
+-- Up-to-date: /home/rrqq/towr_workspace/devel/lib/libifopt_core.so
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/solver.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/bounds.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/composite.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/constraint_set.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/cost_term.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/variable_set.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/problem.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/test_vars_constr_cost.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt_core-targets.cmake
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt_core-targets-noconfig.cmake
+-- Up-to-date: /home/rrqq/towr_workspace/devel/lib/libifopt_ipopt.so
+-- Up-to-date: /home/rrqq/towr_workspace/devel/lib/ifopt/ifopt_ipopt-example
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/ipopt_solver.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/include/ifopt/ipopt_adapter.h
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt_ipopt-targets.cmake
+-- Up-to-date: /home/rrqq/towr_workspace/devel/share/ifopt/cmake/ifopt_ipopt-targets-noconfig.cmake

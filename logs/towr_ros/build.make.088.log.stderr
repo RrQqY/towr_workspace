@@ -1,0 +1,50 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:167:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+     [01;31m[Kstring[m[K f_traj_path = "/home/rrqq/towr_workspace/traj.csv";
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:167:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:33[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:35[m[K,
+                 from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:169:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     if (!(f_traj)) std::[01;31m[Kout[m[K << "Create traj file failed!\n";
+                         [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:169:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcout[m[K’
+     if (!(f_traj)) std::[01;36m[Kout[m[K << "Create traj file failed!\n";
+                         [01;36m[K^~~[m[K
+                         [32m[Kcout[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:170:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+     else std::[01;31m[Kout[m[K << "Create traj file success!\n";
+               [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:170:15:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcout[m[K’
+     else std::[01;36m[Kout[m[K << "Create traj file success!\n";
+               [01;36m[K^~~[m[K
+               [32m[Kcout[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:171:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVec3[m[K’ was not declared in this scope
+     [01;31m[KVec3[m[K pos, vel, w;
+     [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVec4[m[K’ was not declared in this scope
+     [01;31m[KVec4[m[K theta;
+     [01;31m[K^~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:214:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kout[m[K’ was not declared in this scope
+     std:[01;31m[Kout[m[K << "Write traj file success!\n";
+         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:53:21:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ has not been declared
+     auto terrain_ = [01;31m[KHeightMap[m[K::MakeTerrain(terrain_id);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_pub[m[K’ is not a member of ‘[01m[Ktowr[m[K’
+     towr::[01;31m[Krviz_pub[m[K.publish(goal_msg);
+           [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make: *** [all] Error 2

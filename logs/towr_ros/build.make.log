@@ -1,0 +1,39 @@
+[  0%] Built target xpp_msgs_generate_messages_cpp
+[  0%] Built target xpp_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target xpp_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target xpp_msgs_generate_messages_lisp
+[  0%] Built target xpp_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target rosbag_traj_combiner
+[ 19%] Built target rosbag_geom_msg_extractor
+[ 19%] Built target _towr_ros_generate_messages_check_deps_TowrCommand
+[ 28%] Built target towr_ros_generate_messages_py
+[ 33%] Built target towr_ros_generate_messages_cpp
+[ 38%] Built target towr_ros_generate_messages_lisp
+[ 47%] Built target towr_ros_generate_messages_eus
+[ 52%] Built target towr_ros_generate_messages_nodejs
+[ 52%] Built target towr_ros_gencpp
+[ 52%] Built target towr_ros_generate_messages
+[ 61%] Built target rviz_terrain_publisher
+[ 66%] [32mBuilding CXX object CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o[0m
+[ 71%] [32m[1mLinking CXX shared library /home/rrqq/towr_workspace/devel/.private/towr_ros/lib/libtowr_ros.so[0m
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[ 71%] Built target towr_ros
+[35m[1mConsolidate compiler generated dependencies of target towr_user_interface[0m
+[ 76%] [32m[1mLinking CXX executable /home/rrqq/towr_workspace/devel/.private/towr_ros/lib/towr_ros/towr_ros_app[0m
+[ 80%] [32m[1mLinking CXX executable /home/rrqq/towr_workspace/devel/.private/towr_ros/lib/towr_ros/goal_pose_publisher[0m
+[ 85%] [32m[1mLinking CXX executable /home/rrqq/towr_workspace/devel/.private/towr_ros/lib/towr_ros/towr_user_interface[0m
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[ 90%] Built target towr_user_interface
+[ 95%] Built target goal_pose_publisher
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+[100%] Built target towr_ros_app

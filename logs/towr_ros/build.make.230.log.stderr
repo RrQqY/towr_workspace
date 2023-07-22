@@ -1,0 +1,47 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:426:53:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+         printf("@@@@@@, time_step = %d\n", time_step[01;35m[K"[m[K);
+                                                     [01;35m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:426:53:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+         printf("@@@@@@, time_step = %d\n", time_step[01;31m[K");[m[K
+                                                     [01;31m[K^~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:410:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_geom_[m[K’ was not declared in this scope
+         [01;31m[Kgoal_geom_[m[K.lin.p_.x() = pos_x;
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kterrain_[m[K’ was not declared in this scope
+         [01;31m[Kterrain_[m[K = AdvanceCircularBuffer(terrain_, HeightMap::TERRAIN_COUNT);
+         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kderwin[m[K’
+         [01;36m[Kterrain_[m[K = AdvanceCircularBuffer(terrain_, HeightMap::TERRAIN_COUNT);
+         [01;36m[K^~~~~~~~[m[K
+         [32m[Kderwin[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:52:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ has not been declared
+         terrain_ = AdvanceCircularBuffer(terrain_, [01;31m[KHeightMap[m[K::TERRAIN_COUNT);
+                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:418:20:[m[K [01;31m[Kerror: [m[K‘[01m[KAdvanceCircularBuffer[m[K’ was not declared in this scope
+         terrain_ = [01;31m[KAdvanceCircularBuffer[m[K(terrain_, HeightMap::TERRAIN_COUNT);
+                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:419:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimize_[m[K’ was not declared in this scope
+         [01;31m[Koptimize_[m[K = true;
+         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:420:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualize_trajectory_[m[K’ was not declared in this scope
+         [01;31m[Kvisualize_trajectory_[m[K = true;
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:423:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkeyboard_user_interface[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Kkeyboard_user_interface[m[K::PublishCommand()
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:428:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kros[m[K’
+         [01;31m[Kros[m[K::spinOnce();
+         [01;31m[K^~~[m[K
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

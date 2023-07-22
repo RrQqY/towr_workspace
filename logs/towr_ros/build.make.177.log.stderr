@@ -1,0 +1,39 @@
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:35:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ does not name a type
+     auto terrain_id = static_cast<[01;31m[KHeightMap[m[K::TerrainID>(msg_in.terrain);
+                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K::[m[K’ token
+     auto terrain_id = static_cast<HeightMap[01;31m[K::[m[KTerrainID>(msg_in.terrain);
+                                            [01;31m[K^~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K::[m[K’ token
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:46:[m[K [01;31m[Kerror: [m[K‘[01m[K::TerrainID[m[K’ has not been declared
+     auto terrain_id = static_cast<HeightMap::[01;31m[KTerrainID[m[K>(msg_in.terrain);
+                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:46:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kterrain_id[m[K’
+     auto terrain_id = static_cast<HeightMap::[01;36m[KTerrainID[m[K>(msg_in.terrain);
+                                              [01;36m[K^~~~~~~~~[m[K
+                                              [32m[Kterrain_id[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:52:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+     auto terrain_id = static_cast<HeightMap::TerrainID>(msg_in.terrain)[01;31m[K;[m[K
+                                                                        [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:53:21:[m[K [01;31m[Kerror: [m[K‘[01m[KHeightMap[m[K’ has not been declared
+     auto terrain_ = [01;31m[KHeightMap[m[K::MakeTerrain(terrain_id);
+                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_pub[m[K’ was not declared in this scope
+     [01;31m[Krviz_pub[m[K.publish(goal_msg);
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:140:66:[m[K [01;31m[Kerror: [m[K‘[01m[KUserCommandCallback[m[K’ is not a member of ‘[01m[Ktowr[m[K’
+   goal_sub       = n.subscribe(towr_msgs::user_command, 1, towr::[01;31m[KUserCommandCallback[m[K);
+                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:140:66:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:49:6:[m[K [01;36m[Knote: [m[K  ‘[01m[KUserCommandCallback[m[K’
+ void [01;36m[KUserCommandCallback[m[K(const towr_ros::TowrCommand& msg_in)
+      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/usr/bin/ld: warning: /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+make: *** [all] Error 2

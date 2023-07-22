@@ -1,0 +1,82 @@
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:72:79:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSetGoal[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+             double goal_q_x, double goal_q_y, double goal_q_z, double goal_q_w[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:75:22:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ extern GoalPublusher [01;31m[Kgoal_publisher[m[K;
+                      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:72:79:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSetGoal[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+             double goal_q_x, double goal_q_y, double goal_q_z, double goal_q_w[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:75:22:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ extern GoalPublusher [01;31m[Kgoal_publisher[m[K;
+                      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:39:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:72:79:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSetGoal[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+             double goal_q_x, double goal_q_y, double goal_q_z, double goal_q_w[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:75:22:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ extern GoalPublusher [01;31m[Kgoal_publisher[m[K;
+                      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_user_interface.cc:42:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:72:79:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSetGoal[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+             double goal_q_x, double goal_q_y, double goal_q_z, double goal_q_w[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:75:22:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ extern GoalPublusher [01;31m[Kgoal_publisher[m[K;
+                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:[m[K In function ‘[01m[Kvoid towr::UserCommandCallback(const TowrCommand&)[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_publisher[m[K’ was not declared in this scope
+     [01;31m[Kgoal_publisher[m[K.SetGoal(goal_msg.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, q.x(), q.y(), q.z(), q.w());
+     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/goal_pose_publisher.cc:143:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGoalPublusher[m[K’
+     [01;36m[Kgoal_publisher[m[K.SetGoal(goal_msg.pose.position.x, goal_msg.pose.position.y, goal_msg.pose.position.z, q.x(), q.y(), q.z(), q.w());
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+     [32m[KGoalPublusher[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:58:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;31m[KGoalPublusher[m[K {
+       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:67:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;36m[KGoalPublusher[m[K {
+       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:76:15:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ GoalPublusher [01;31m[Kgoal_publisher[m[K;
+               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:58:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;31m[KGoalPublusher[m[K {
+       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:30:0[m[K:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/include/towr_ros/towr_ros_interface.h:67:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass towr::GoalPublusher[m[K’
+ class [01;36m[KGoalPublusher[m[K {
+       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:76:15:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoal_publisher[m[K’
+ GoalPublusher [01;31m[Kgoal_publisher[m[K;
+               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_publisher[m[K’ was not declared in this scope
+     double goal_pos_x = [01;31m[Kgoal_publisher[m[K.goal_set[0];
+                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGoalPublusher[m[K’
+     double goal_pos_x = [01;36m[Kgoal_publisher[m[K.goal_set[0];
+                         [01;36m[K^~~~~~~~~~~~~~[m[K
+                         [32m[KGoalPublusher[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:[m[K In member function ‘[01m[Ktowr::TowrRosInterface::XppVec towr::TowrRosInterface::GetTrajectory() const[m[K’:
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_publisher[m[K’ was not declared in this scope
+     double goal_pos_x = [01;31m[Kgoal_publisher[m[K.goal_set[0];
+                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rrqq/towr_workspace/src/towr/towr_ros/src/towr_ros_interface.cc:232:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGoalPublusher[m[K’
+     double goal_pos_x = [01;36m[Kgoal_publisher[m[K.goal_set[0];
+                         [01;36m[K^~~~~~~~~~~~~~[m[K
+                         [32m[KGoalPublusher[m[K
+make[2]: *** [CMakeFiles/towr_ros.dir/src/goal_pose_publisher.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_user_interface.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr_ros.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_ros.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/towr_user_interface.dir/src/towr_ros_interface.cc.o] Error 1
+make[1]: *** [CMakeFiles/towr_user_interface.dir/all] Error 2
+make: *** [all] Error 2
